@@ -5,6 +5,8 @@ var Metalsmith = require('metalsmith'),
     templates  = require('metalsmith-templates'),
     sass = require('metalsmith-sass'),
     convert = require('metalsmith-convert'),
+    define  = require('metalsmith-define'),
+
     handlebars = require('handlebars'),
     reverseEach = require( 'bullhorn-handlebars-helpers/src/collection/reverseEach' )( handlebars ),
     highlight  = require('highlight.js'),
@@ -16,19 +18,27 @@ handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/par
 
 Metalsmith(__dirname)
     .source('src')
+    .use(define({
+        development: true,
+        author: require('./author.json'),
+        root_path: "//localhost/Dev/clemsos.github.io/build/"
+      }))
     .use(collections({
         projects: {
-             pattern: 'content/projects/*/*.md',
-             sortBy: 'date',
-             reverse: false,
-             metadata: {
+            pattern: 'content/projects/*/*.md',
+            sortBy: 'date',
+            reverse: true,
+            metadata: {
                 name: 'Projects',
                 description: 'List of projects'
             }
         },
         pages: {
             pattern: 'content/pages/*/*.md'
-        }
+        },
+        categories: {
+            pattern: 'content/categories/*.md'
+        },
     }))
     .use(markdown({
         gfm: false,
@@ -67,9 +77,9 @@ Metalsmith(__dirname)
     ]))
     .use(permalinks())
     .use(templates('handlebars'))
-    .use(sass({
-        outputStyle: 'compressed'
-    }))
+    // .use(sass({
+    //     outputStyle: 'compressed'
+    // }))
     // .use(watch())
     .destination('./build')
     .build(function (err) {

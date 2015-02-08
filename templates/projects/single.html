@@ -1,0 +1,18 @@
+{{> header}}
+
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <ul>
+        {{#each collections.docs}}
+            <li><a href="/{{this.path}}">{{this.step}} - {{this.title}}</a></li>
+        {{/each}}
+    </ul>
+</div>
+
+<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <h2>{{title}}</h2>
+    <article class="doc learn">
+        {{{ contents }}}
+    </article>
+</div>
+
+{{> footer}}

@@ -1,0 +1,29 @@
+{{> header}}
+{{{ contents }}}
+
+{{#each collections.projects}}
+    <article class="project">
+      <a href="{{this.path}}">{{this.title}}</a>
+      if @thumb do <img src="{{this.path}}/thumb.png" class="projectThumb" alt=""/> endif
+
+<!--       
+    if !@linkout do <a href="@url"> endif
+      if @linkout do <a href="@linkout"> endif
+      if @thumb do <img src="@thumb" class="projectThumb" alt=""/> endif
+      <span class="projectFrame">
+        <span class="projectTitle">@title
+        if @linkout do <img src="@root_path/public/images/arrow_right.png" alt="link"/> endif
+        </span>
+        <span class="">
+          if @date do <span class="projectDate"><small>@date</small></span> endif
+        </span>
+        <span class="projectInfo">
+          if @place do <span class="projectPlace"><small>@place</small></span> endif
+          if @desc do <span class="projectDesc"><small>@desc</small></span> endif
+        </span>
+      </span>
+      </a> -->
+    </article>
+{{/each}}
+
+{{> footer}}

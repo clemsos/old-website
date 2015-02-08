@@ -1,0 +1,23 @@
+{
+  "name": "clemsos.github.io",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf build && node index.js",
+    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:clemsos/clemsos.github.io.git\" master:master --force && rm -rf .git"
+  },
+  "dependencies": {
+    "highlight.js": "latest",
+    "bullhorn-handlebars-helpers": "latest",
+    "handlebars": "latest",
+    "metalsmith-templates": "^0.1.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.1.1",
+    "metalsmith-sass": "latest",
+    "metalsmith-collections": "latest",
+    "metalsmith": "^0.2.3",
+    "handlebars": "^2.0.0-alpha.2",
+    "metalsmith-watch" : "latest",
+    "metalsmith-convert" : "git://github.com/clemsos/metalsmith-convert"  
+  }
+}
+

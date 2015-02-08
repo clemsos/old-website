@@ -5,4 +5,3 @@ Build the website
 
     $ npm run build
 
-

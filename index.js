@@ -6,7 +6,7 @@ var Metalsmith = require('metalsmith'),
     sass = require('metalsmith-sass'),
     convert = require('metalsmith-convert'),
     define  = require('metalsmith-define'),
-
+    tags = require('metalsmith-tags'),
     handlebars = require('handlebars'),
     reverseEach = require( 'bullhorn-handlebars-helpers/src/collection/reverseEach' )( handlebars ),
     highlight  = require('highlight.js'),
@@ -35,10 +35,14 @@ Metalsmith(__dirname)
         },
         pages: {
             pattern: 'content/pages/*/*.md'
-        },
-        categories: {
-            pattern: 'content/categories/*.md'
-        },
+        }
+    }))
+    .use(tags({
+        handle: 'category',
+        path: 'categories', 
+        template:'category.html', 
+        sortBy: 'date',  
+        reverse: true 
     }))
     .use(markdown({
         gfm: false,

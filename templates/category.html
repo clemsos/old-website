@@ -1,0 +1,23 @@
+{{> header}}
+
+{{#each posts }}
+  <article class="project">
+    <a href="{{this.path}}">
+      <img src="{{this.path}}/thumbnail.png" class="projectThumb" alt=""/>
+      <span class="projectFrame">
+        <span class="projectTitle">{{this.title}}
+          {{this.title}}
+        </span>
+        <span class="">
+          <span class="projectDate"><small>{{ this.date}}</small></span>
+        </span>
+        <span class="projectInfo">
+          <span class="projectPlace"><small>{{ this.place}}</small></span>
+          <span class="projectDesc"><small>{{ this.desc }}</small></span>
+        </span>
+      </span>
+    </a>
+  </article>
+{{/each}}
+
+{{> footer}}

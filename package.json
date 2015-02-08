@@ -17,6 +17,7 @@
     "metalsmith": "^0.2.3",
     "metalsmith-watch": "latest",
     "metalsmith-convert": "git://github.com/clemsos/metalsmith-convert",
-    "metalsmith-define": "^1.0.0"
+    "metalsmith-define": "^1.0.0",
+    "metalsmith-tags": "^0.6.1"
   }
 }

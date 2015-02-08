@@ -37,9 +37,9 @@
     <div class="nest border-top project-nest">
         <div class="tag">Index</div>
     </div>
-    {{#each collections.categories}}
-    <div class="tag project-tag" id="{{ this.slug }}">
-        {{ this.name }}
+    {{#each categories}}
+    <div class="tag project-tag" id="{{ this }}">
+        {{ this }}
         <span class="tip"> {{ this.count }}</span>
     </div>
     {{/each}}

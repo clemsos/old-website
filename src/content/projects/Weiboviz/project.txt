@@ -1,8 +1,0 @@
----
-title: phD
-date: Nov 2014
-desc: Visualization of memes on Sina Weibo
-category: research
----
-
-* [Code on Github](https://github.com/clemsos/mitras)

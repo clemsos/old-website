@@ -1,23 +1,27 @@
 {{> header}}
 
-{{#each collections.projects}}
-  <article class="project">
-    <a href="{{this.path}}">
-      <img src="{{this.path}}/thumbnail.png" class="projectThumb" alt=""/>
-      <span class="projectFrame">
-        <span class="projectTitle">{{this.title}}
-          {{this.title}}
-        </span>
-        <span class="">
-          <span class="projectDate"><small>{{ this.date}}</small></span>
-        </span>
-        <span class="projectInfo">
-          <span class="projectPlace"><small>{{ this.place}}</small></span>
-          <span class="projectDesc"><small>{{ this.desc }}</small></span>
-        </span>
-      </span>
-    </a>
-  </article>
+<div class="row" id="projects">
+  <!-- <h2>Projects</h2> -->
+  {{#each collections.projects}}
+    {{> tile}}
+  {{/each}}
+</div>
+
+
+<div class="row">
+  <h2>Workshops & Talks</h2>
+  {{#each collections.workshops}}
+    {{> small-tile}}
 {{/each}}
+</div>
+
+<div class="row">
+  <h2>Websites</h2>
+  {{#each collections.websites}}
+    {{> small-tile}}
+{{/each}}
+</div>
+
+</div>
 
 {{> footer}}

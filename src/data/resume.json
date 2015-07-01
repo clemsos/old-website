@@ -1,0 +1,348 @@
+{
+  "basics": {
+    "name": "Renaud Clément",
+    "label": "Data columns & newspaper rows",
+    "phone": "+33(6).43.34.56.55",
+    "website": "http://clementrenaud.com",
+    "summary": "Researcher, technologist and innovator\n\n5+ years leading international research projects in France & China\n10+ years coding websites, apps and installations  \n10+ years writing articles and papers about tech, social and urban issues \n\nMy main topics for research, training and writing are : social innovation,  tech in China, data mining, visualization, social network analysis, creative coding, hacker culture, urban planning, smart cities\n\nI work in French, English and Chinese Mandarin. I am based in Lyon, France.",
+    "location": {
+      "address": "9 quai André Lassagne, Lyon",
+      "postalCode": "69001",
+      "city": "France",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [],
+    "email": "hi@clementrenaud.com"
+  },
+  "work": [
+    {
+      "company": "Clément Renaud",
+      "position": "Freelance",
+      "website": "",
+      "startDate": "2012-02-01",
+      "summary": "- management of tech and experimental projects with China\n- data visualisation and creative coding for art & research projects\n- design and develop websites for art, non-profit and academia\n- consult on social media strategy for organization\n- teach social media, data mining & visualisation\n- talk at research and tech conferences\n- write for magazines & newspapers",
+      "highlights": []
+    },
+    {
+      "company": "Télécom ParisTech",
+      "position": "Postdoctoral Researcher",
+      "website": "",
+      "startDate": "2014-08-01",
+      "summary": "Post-Doctoral research about Open Innovation Models in Urban China (OPIMUC), funded by the French Agence National de la Recherche (ANR) in the Innovative Society program\n\nFrom the proposal : \"In this research project, we want to take inventory and analyze the models of emerging urban spaces that play or have played a synaptic role between virtual and physical worlds within new modes of “industrial organization” of innovation. We also aim at providing new understandings about how physical and virtual spaces are co-structured by a sharing economy within and between social groups (artists, workers, students, and enterprises) related to their access and representations of places and technologies.\"",
+      "endDate": "2015-05-31",
+      "highlights": []
+    },
+    {
+      "company": "Sharism Lab",
+      "position": "Co-founder / research lead",
+      "website": "",
+      "startDate": "2011-11-01",
+      "summary": "Sharism Lab is a China-based research initiative that investigates social networks dynamics to provide new understanding about the sharing economy. We analyse and visualize data extracted from online social platforms to report on Chinese netizens activities and new online phenomenons on the Chinese Internet.",
+      "highlights": [],
+      "endDate": "2013-03-01"
+    },
+    {
+      "company": "Future Challenges",
+      "position": "Blogger",
+      "website": "",
+      "startDate": "2011-10-01",
+      "summary": "Report from China and provide local insights on topics related to global governance and challenges of tomorrow",
+      "highlights": [],
+      "endDate": "2012-11-01"
+    },
+    {
+      "company": "Jue Creative Inc.",
+      "position": "Developer Lead",
+      "website": "",
+      "startDate": "2011-04-01",
+      "summary": "Developement of the Shanghai-based crowdfunding platform Jue.so. Provinding fundraising, residence space and production facilities, Jue supports young Chinese artists and designers to  create real objects from their own ideas. Team management and development (Ruby on Rails, Xslt, XML, SQL, capistrano)",
+      "highlights": [],
+      "endDate": "2011-09-01"
+    },
+    {
+      "company": "MakeSense",
+      "position": "Gang Member",
+      "website": "",
+      "startDate": "2011-03-01",
+      "summary": "MakeSense connects Social Entrepreneurs with individuals ready to take up their challenges both online, through a web application accessible at www.makesense.org, and offline through innovative workshops called Hold-ups. The website allows people to browse for social entrepreneurs, connect with them, know more about their venture and their challenges, and eventually solve them. The Hold-Ups are creativity and brainstorming workshops organized in small groups of people to help solving a specific social challenge.",
+      "highlights": [],
+      "endDate": "2012-03-01"
+    },
+    {
+      "company": "Urban China",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2011-02-01",
+      "summary": "Web Developer. Urban China is a Chinese-language magazine with background articles on developments in the field of social geography, architecture and urban planning in China. Through various social media, Urban China offers a creative platform for exchanging ideas and experiences.",
+      "highlights": [],
+      "endDate": "2011-05-01"
+    },
+    {
+      "company": "Raffles Education Corporation",
+      "position": "Interactive Multimedia Lecturer",
+      "website": "",
+      "startDate": "2010-10-01",
+      "summary": "Lecturer for students in the Multimedia Departement of Raffles Eduction Wuhan. Raffles Eduction Corp. is the leader of creative education in Asia. My teaching included basic 3D Techniques (Maya), Web Design Principles,  Basic Web Techniques and Advanced Interactive Multimedia. The lessons were given in both English and Chinese mandarin",
+      "highlights": [],
+      "endDate": "2011-01-01"
+    },
+    {
+      "company": "China Files",
+      "position": "Journalist",
+      "website": "",
+      "startDate": "2009-10-01",
+      "summary": "Report and reviews about today's China (website in French)",
+      "highlights": [],
+      "endDate": "2011-03-01"
+    },
+    {
+      "company": "Wuhan Institute of Technology",
+      "position": "French Lecturer",
+      "website": "",
+      "startDate": "2008-09-01",
+      "summary": "Wuhan Institute of Technology is a college located in Wuhan, China. The job was to prepare undergraduate students to study in France by teaching French language (oral and written, plus technical vocabulary courses) as well as French culture.",
+      "highlights": [],
+      "endDate": "2010-09-01"
+    },
+    {
+      "company": "Humble Stories",
+      "position": "Lead developer",
+      "website": "",
+      "startDate": "2008-03-01",
+      "summary": "Creation and development of Humble Stories.com, an experimental social geo-localized network using data visualization and 2D barcode data collection to relate the daily life in the artistic village of Songzhuang in Beijng, China. Dataviz UX/UI (Flash), script/db (PHP/MySQL), geo-localization, 2D barcode integration,",
+      "highlights": [],
+      "endDate": "2008-06-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université de Montréal",
+      "area": "",
+      "studyType": "Licence",
+      "startDate": "2005-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2007-01-01"
+    },
+    {
+      "institution": "National Center of Distance Education (CNED)",
+      "area": "",
+      "studyType": "Preparatory courses",
+      "startDate": "2002-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2003-01-01"
+    },
+    {
+      "institution": "Telecom ParisTech",
+      "area": "",
+      "studyType": "Doctor of Philosophy (Ph.D.)",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2015-01-01"
+    },
+    {
+      "institution": "Université Nancy 2",
+      "area": "",
+      "studyType": "Deug",
+      "startDate": "2003-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2005-01-01"
+    },
+    {
+      "institution": "Université Michel de Montaigne (Bordeaux 3)",
+      "area": "",
+      "studyType": "Master 1",
+      "startDate": "2006-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2007-01-01"
+    },
+    {
+      "institution": "Ecole Supérieure de l'Image",
+      "area": "",
+      "studyType": "First year",
+      "startDate": "2001-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2002-01-01"
+    },
+    {
+      "institution": "Université Vincennes-Saint-Denis (Paris VIII)",
+      "area": "",
+      "studyType": "Master 2",
+      "startDate": "2007-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2008-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Chinese",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Visualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Wordpress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Network Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Multimedia",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Journalism",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CMS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Writing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Blogging",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "English",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "French",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Publishing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Content Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "New Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teaching",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Editing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Symphony",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional"
+    },
+    {
+      "language": "French",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Professional working"
+    },
+    {
+      "language": "German",
+      "fluency": "Elementary"
+    }
+  ],
+  "references": [
+    {
+      "name": "Ricky Ng-Adam",
+      "reference": "Clément is enthusiastic and passionate about making a difference in China through MakeSense and helping social enterprises. He's open and outgoing with a willingness to spend time and energy planning impactful events with social enterpreneurs, engineers and designers."
+    },
+    {
+      "name": "Norbert Paquel",
+      "reference": "I had the pleasure to be one of the teachers of Renaud when he was a student in Paris VIII Hypermedia Department - master \"Creation et édition numérique (Digital Creastion and Publishing)\". He was a very studious and smart student. Especially, he is very creative and has also a wide vision of the development of digital information and publishing (I was a teacher of multimedia economics)."
+    }
+  ]
+}

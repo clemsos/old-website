@@ -1,46 +1,99 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" if @fb-admin do xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" endif >
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-    
-    <title>{{ name }} </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-    <link rel="stylesheet" href="{{root_path}}/css/index.css" type="text/css"  media="screen, tv, projection, handheld"/>
-    <link rel="stylesheet" href="{{root_path}}/css/preview-boxes.css" type="text/css"  media="screen, tv, projection, handheld"/>
-    <link rel="stylesheet" href="{{root_path}}/css/header.css" type="text/css"  media="screen, tv, projection, handheld"/>
-    <link rel="stylesheet" href="{{root_path}}/css/fonts.css" type="text/css"/>
-    <link rel="shortcut icon" href="{{root_path}}.ico" />
-  </head>
-  
-  <body>
-  <div id="outer-container">
-    
-    <div id="title">
+<!--
 
-        <h3 id="main-title">
-          <a href="{{root_path}}">{{author.name}}</a> /
-          <a href="{{root_path}}about">{{author.profession}}</a>
-        </h3>
+                                                                                                                                      
+  _|_|_|  _|                                                  _|          _|_|_|                                                  _|  
+_|        _|    _|_|    _|_|_|  _|_|      _|_|    _|_|_|    _|_|_|_|      _|    _|    _|_|    _|_|_|      _|_|_|  _|    _|    _|_|_|  
+_|        _|  _|_|_|_|  _|    _|    _|  _|_|_|_|  _|    _|    _|          _|_|_|    _|_|_|_|  _|    _|  _|    _|  _|    _|  _|    _|  
+_|        _|  _|        _|    _|    _|  _|        _|    _|    _|          _|    _|  _|        _|    _|  _|    _|  _|    _|  _|    _|  
+  _|_|_|  _|    _|_|_|  _|    _|    _|    _|_|_|  _|    _|      _|_|      _|    _|    _|_|_|  _|    _|    _|_|_|    _|_|_|    _|_|_|  
+                                                                                                                                      
+                                                                                                                                      
 
-        <div id="desc">{{ author.headline }} </div>
+Clément Renaud - 2015 - http://clemenrenaud.com
 
-      <nav class="rt">
-          <span class="navitem"><a href="{{root_path}}">Home</a></span>
-          <span class="navitem"><a href="{{root_path}}pages/about">About</a></span>
-          <span class="navitem"><a href="{{root_path}}pages/contact">Contact</a></span>
-      </nav>
+All static HTML and JS
+Thanks to node, Metalsmith, d3js and jQuery.
 
-    </div>
-  
-  <div class="compact" id="tags">
-    <div class="nest border-top project-nest">
-        <div class="tag">Index</div>
-    </div>
-    {{#each categories}}
-    <div class="tag project-tag" id="{{ this }}">
-        {{ this }}
-        <span class="tip"> {{ this.count }}</span>
-    </div>
-    {{/each}}
+-->
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ author.name }} | {{author.profession}}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ 
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--   <link rel="stylesheet" href="{{root_path}}/scss/normalize.css">
+  <link rel="stylesheet" href="{{root_path}}/scss/skeleton.css">
+  <link rel="stylesheet" href="{{root_path}}/scss/main.css"> -->
+  <link rel="stylesheet" href="{{root_path}}/scss/app.css"> 
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Browser Specifics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" media="all" href="css/IE.css">
+  <![endif]-->
+
+</head>
+<body>
+
+  <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<header class="fixed-nav-bar full-width-container" id="branding">
+  <div class="row">
+      <div class="three columns">
+          <h1 id="main-title">
+                  <a href="/">{{author.name}}</a> 
+          </h1>
+          <div id="desc"><a href="/about">{{author.profession}}</a></div>
+          <div id="nav">
+            <ul class="nav-menu">
+              <li class="navitem"><a class="bio" href="/content/pages/bio">About</a></li>
+              <li class="navitem"><a class="publi" href="/content/pages/biblio">Scholar</a></li>
+              <li class="navitem"><a class="random" href="#">Random</a></li>
+              <li class="navitem"><a class="contact" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+      </div>
+      <div  class="six columns">
+        <div id="term">
+        </div>
+      </div>
+      <div id="showcase" class="three columns">
+      </div>
   </div>
+</header>
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="full-width-container main">

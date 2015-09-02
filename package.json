@@ -4,7 +4,9 @@
   "scripts": {
     "watch": "rm -rf build && node index.js watch",
     "build": "rm -rf build && node index.js",
-    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:clemsos/clemsos.github.io.git\" master:master --force && rm -rf .git"
+    "deploy-github": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:clemsos/clemsos.github.io.git\" master:master --force && rm -rf build/.git",
+    "deploy" : "npm run build && cd build"
+
   },
   "dependencies": {
     "highlight.js": "latest",

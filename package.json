@@ -5,7 +5,8 @@
     "watch": "rm -rf build && node index.js watch",
     "build": "rm -rf build && node index.js",
     "deploy-github": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:clemsos/clemsos.github.io.git\" master:master --force && rm -rf build/.git",
-    "deploy" : "npm run build && cd build"
+
+    "deploy" : "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\" && git remote add origin \"ssh+git://11870@git.dc1.gpaas.net/clementrenaud.com.git\" && git push origin master:master --force && ssh 11870@git.dc1.gpaas.net 'deploy clementrenaud.com.git'"
 
   },
   "dependencies": {

@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* 
+CSS http://clementrenaud.com 
+par Clément Renaud
+hi@clementrenaud.com
+
+*/
+@import "includes/typo";
+@import "includes/colors";
+@import "includes/layout";
+@import "includes/terminal";
+@import "includes/media";
+@import "includes/biblio";
+@import "includes/resume";
+@import "includes/icons";
+@import "includes/pdf";
+
+body {
+    background: $background-color;
+}
+
+em  {
+    color : $highlight-color;
+    font-weight:800;
+
+}
+a, a:visited {
+    text-decoration: none;
+    color:$link-color;
+}
+
+a:hover {
+    color:$link-hover-color;
+}
+
+h3:hover {
+    color:$title-hover-color;
+}
+
+header {
+    
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      width: 100%;
+      background: #000;
+
+    
+    #main-title a, #desc a,  #main-title a:visited {
+        color : $header-title-color;
+    }
+    
+    #desc a:hover, #main-title a:hover {
+       color : $title-hover-color; 
+    }
+
+    .map path {
+        stroke : none;
+    }
+    // svg {
+    //     position:absolute;
+    //     left:0px;
+    //     top:90px;
+    //     width:100%;
+    // }
+    
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+
+    .link {
+      stroke: #999;
+      stroke-opacity: .6;
+    }
+
+
+    path { 
+      stroke: steelblue;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #showcase {
+        padding-top: 1em;
+    }
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    z-index: 15;
+
+    .footer-bg {
+        position: fixed;
+        width: 300px;
+        height: 85px;
+        left: 0;
+        bottom: 0;
+        background: url(../img/footer-bg.png) no-repeat left bottom;
+    }
+}
+
+
+#nav {
+
+    margin: 13px 0 0 0;
+
+
+    ul li {
+        display: inline;
+        // margin: 0 20px 0 0;
+        margin-bottom: 130px;
+    }
+ 
+    a {
+        text-decoration: none;
+        color: $header-link-color;
+    }
+
+    a:hover {
+        color : $title-hover-color; 
+    }
+ 
+
+    li {
+        position: relative;
+        margin: 7px 0 0 0;
+        padding: 0 0 10px 0;
+        background: none;
+    }
+
+    li a {
+        padding: 0 5px 10px 0;
+        text-decoration: none;
+        -moz-transition: 0.2s ease-in;
+        -webkit-transition: 0.2s ease-in;
+    }
+
+    li a:hover {
+        background: none;
+    }
+
+    li ul {
+        display: none;
+        left: 0;
+        position: absolute;
+        bottom: 100%;
+        background: none;
+    }
+
+    li:hover ul {
+        display: block;
+        width: auto;
+    }
+
+    li ul a {
+        white-space: nowrap;
+    }
+
+    li ul a:hover {
+        color : $title-hover-color; 
+    }
+}
+
+#projects, .project-container, .resume-container {
+    padding-top: 5em;
+}
+
+#term-container {
+    width: 100%;
+    background: #000;
+}
+
+.main {
+    background: #FFF;
+    padding-top: 9em;
+}
+
+p.projectTitle {
+    line-height: 1em;
+    font-size: 1.2em;
+}
+
+.tile {
+    p.projectTitle {
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        border-bottom : 1px solid #AAA;
+    }
+}
+
+.small-tile {
+
+    p.projectTitle {
+        border-top : 1px solid #AAA;
+        padding-top: 1em;
+        margin-top: 1em;
+
+    }
+}
+
+.project-frame {
+
+    background: $tile-bg-color;
+    color : $tile-title-color;
+    // padding : .2em;
+    margin-bottom: 1em;
+
+    .project-content{
+        padding : 1em
+    }
+
+}
+
+
+#project {
+    
+    padding : 0 3em 0 0;
+    
+    .projectTitle {
+        text-align: center;
+    }
+    a {
+        font-weight: bold;
+    }
+}
+
+.video {
+    text-align: center;
+    padding-top : 2em;
+}
+#gallery {
+
+    min-height:100%;
+    position:relative;
+    padding-top : 1em;
+    
+    ul{
+        list-style: none;
+        position: relative;
+        height:100%;
+        // max-width : 80%;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width : 100%;
+    }
+}
+#bio {
+    p {
+        
+    }
+}
+

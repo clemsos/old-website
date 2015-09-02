@@ -1,0 +1,33 @@
+{
+  "name": "clemsos.github.io",
+  "private": true,
+  "scripts": {
+    "watch": "rm -rf build && node index.js watch",
+    "build": "rm -rf build && node index.js",
+    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:clemsos/clemsos.github.io.git\" master:master --force && rm -rf .git"
+  },
+  "dependencies": {
+    "highlight.js": "latest",
+    "bullhorn-handlebars-helpers": "latest",
+    "handlebars": "latest",
+    "metalsmith-templates": "latest",
+    "metalsmith-markdown": "latest",
+    "metalsmith-permalinks": "latest",
+    "metalsmith-sass": "latest",
+    "metalsmith-collections": "latest",
+    "metalsmith": "^1.7.0",
+    "metalsmith-watch": "latest",
+    "metalsmith-convert": "^0.1.0",
+    "metalsmith-define": "latest",
+    "metalsmith-tags": "latest",
+    "metalsmith-server-watch": "0.0.1",
+    "metalsmith-paths": "^2.0.0",
+    "lodash": "^3.9.3",
+    "metalsmith-filenames": "^1.0.0",
+    "metalsmith-scan-images": "git://github.com/clemsos/metalsmith-scan-images.git",
+    "metalsmith-uglify": "^1.0.1",
+    "metalsmith-concat": "^2.0.0",
+    "bibtex-parse-js": "0.0.22",
+    "bibtex-parser": "0.0.0"
+  }
+}

@@ -12,5 +12,3 @@ template:  projects/gallery.html
 
 *
 * See the [website](http://leclub.github.io/)
-
-

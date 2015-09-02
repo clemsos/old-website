@@ -48,9 +48,11 @@ $(function() {
                     this.echo("Try to type one of this command in the terminal")
 
                   },
+
                   // projects: function() {
                   //     $(".project").html("hahah")
                   // },
+
                   gif: function() {
                       clearAllShows("#showcase")
                       

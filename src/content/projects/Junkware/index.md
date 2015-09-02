@@ -31,4 +31,4 @@ This mobile lab invite the audience to reflect on the impact of their fascinatio
 * A co-production by [Make+](http://makeplus.org) and [Crossed Lab](http://www.crossedlab.org)
 * With the support of French Institute and Rhone-Alpes Region.
 * More on the official  [website](http://junkware.io) and the [catalog](http://github.com/clemsos/thejunkventurebook) of the installation.
-* Code available [here](http://github.com/clemsos/junkware), 
+* Code available [here](http://github.com/clemsos/junkware)

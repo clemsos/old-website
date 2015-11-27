@@ -1,6 +1,6 @@
 ---
 
 title: Contact
-template:  pages/biblio.html
+layout:  pages/biblio
 
 ---

@@ -1,7 +1,7 @@
 # clemsos.github.io
-Personal website clemsos.github.io built with [Metalsmith](http://www.metalsmith.io/).
 
-Build the website
+Personal website clemsos.github.io (built with Jekyll).
 
-    $ npm run build
+### Build thumbnails
 
+  sh bin/create_thumbnails.sh

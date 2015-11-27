@@ -15,10 +15,10 @@ do
       IMAGE_TYPE=`file --mime-type -b "$file" | awk -F'/' '{print $1}'`
       if [ x$IMAGE_TYPE = "ximage" ]; then
           filename=$(basename "$file")
-          extension="${filename##*.}"
-          filename="${filename%.*}"
-          convert -define size=240x240 "$file" -thumbnail ${THUMB_WIDTH}x${THUMB_HEIGHT}^ -gravity center -extent ${THUMB_WIDTH}x${THUMB_HEIGHT}  "${content}/thumbnail.png"
-        #  fi
+          if [[ ! -f ${content}/"thumbnail.png" ]]; then # check if thumbnail already exists
+            echo "building" $filename
+            convert -define size=240x240 "$file" -thumbnail ${THUMB_WIDTH}x${THUMB_HEIGHT}^ -gravity center -extent ${THUMB_WIDTH}x${THUMB_HEIGHT}  "${content}/thumbnail.png"
+          fi
       fi
     done
   done

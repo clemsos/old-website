@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<div class="container site.data.resume-container">
+<div class="container resume-container">
     <div id="resume">
 
         <section id="header">
@@ -11,7 +11,7 @@
         <section id="basics">
             {% if site.data.resume.basics.summary %}
             <div class="summary">
-                <p>{{breaklines summary}}</p>
+                <p>{{ site.data.resume.basics.summary}}</p>
             </div>
             {% endif %}
         </section>

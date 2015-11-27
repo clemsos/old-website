@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+    <!-- saved from url=(0019)file:///tmp/15.html -->
+    <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+    body{
+      color:#444;
+      font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+                  "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+      font-size:12px;
+      line-height:1.5em;
+      background:#fefefe;
+      width: 45em;
+      margin: 10px auto;
+      padding: 1em;
+      outline: 1300px solid #FAFAFA;
+    }
+
+    a{ color: #0645ad; text-decoration:none;}
+    a:visited{ color: #0b0080; }
+    a:hover{ color: #06e; }
+    a:active{ color:#faa700; }
+    a:focus{ outline: thin dotted; }
+    a:hover, a:active{ outline: 0; }
+
+    span.backtick {
+      border:1px solid #EAEAEA;
+      border-radius:3px;
+      background:#F8F8F8;
+      padding:0 3px 0 3px;
+    }
+
+    ::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+    ::selection{background:rgba(255,255,0,0.3);color:#000}
+
+    a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+    a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+    p{
+    margin:1em 0;
+    }
+
+    img{
+    max-width:100%;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    color:#111;
+    line-height:1em;
+    }
+    h4,h5,h6{ font-weight: bold; }
+    h1{ font-size:2.5em; }
+    h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+    h3{ font-size:1.5em; }
+    h4{ font-size:1.2em; }
+    h5{ font-size:1em; }
+    h6{ font-size:0.9em; }
+
+    blockquote{
+    color:#666666;
+    margin:0;
+    padding-left: 3em;
+    border-left: 0.5em #EEE solid;
+    }
+    hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+    pre , code, kbd, samp { 
+      color: #000; 
+      font-family: monospace; 
+      font-size: 0.88em; 
+      border-radius:3px;
+      background-color: #F8F8F8;
+      border: 1px solid #CCC; 
+    }
+    pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+    pre code { border: 0px !important; padding: 0;}
+    code { padding: 0 3px 0 3px; }
+
+    b, strong { font-weight: bold; }
+
+    dfn { font-style: italic; }
+
+    ins { background: #ff9; color: #000; text-decoration: none; }
+
+    mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+    sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+    sup { top: -0.5em; }
+    sub { bottom: -0.25em; }
+
+    ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+    li p:last-child { margin:0 }
+    dd { margin: 0 0 0 2em; }
+
+    img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+    table { border-collapse: collapse; border-spacing: 0; }
+    td { vertical-align: top; }
+
+    @media only screen and (min-width: 480px) {
+    body{font-size:14px;}
+    }
+
+    @media only screen and (min-width: 768px) {
+    body{font-size:16px;}
+    }
+
+    @media print {
+      * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+      body{font-size:12pt; max-width:100%; outline:none;}
+      a, a:visited { text-decoration: underline; }
+      hr { height: 1px; border:0; border-bottom:1px solid black; }
+      a[href]:after { content: " (" attr(href) ")"; }
+      abbr[title]:after { content: " (" attr(title) ")"; }
+      .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+      pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+      tr, img { page-break-inside: avoid; }
+      img { max-width: 100% !important; }
+      @page :left { margin: 15mm 20mm 15mm 10mm; }
+      @page :right { margin: 15mm 10mm 15mm 20mm; }
+      p, h2, h3 { orphans: 3; widows: 3; }
+      h2, h3 { page-break-after: avoid; }
+    }
+    </style><title>atelier_conversion_données</title></head><body><h1 id="connaitre-les-formats-de-donnees">Connaître les formats de données</h1>
+    <p>Atelier par Clément Renaud - Fréquence Ecoles - 20 Février 2014</p>
+    <h2 id="objectifs-du-cours">Objectifs du cours</h2>
+    <ul>
+    <li>Alphabétisation aux formats de données standard</li>
+    <li>Conversion de jeux de données</li>
+    <li>Extraction de données depuix le web</li>
+    </ul>
+    <h2 id="vocabulaire-de-base">Vocabulaire de base</h2>
+    <h3 id="type-de-donnees">Type de données</h3>
+    <ul>
+    <li>données tabulaires</li>
+    <li>données relationnelles </li>
+    <li>données de réseaux</li>
+    </ul>
+    <p>Présentation : la structure de la base de données d'un microblog</p>
+    <h3 id="type-de-sources">Type de sources</h3>
+    <ul>
+    <li>fichier</li>
+    <li>site</li>
+    <li>API : http://explorer.content.guardianapis.com</li>
+    </ul>
+    <h3 id="anatomie-dune-jeu-de-donnees">Anatomie d'une jeu de données</h3>
+    <ul>
+    <li>en-tête / header</li>
+    <li>colonne / column</li>
+    <li>ligne / row</li>
+    <li>
+    <p>valeur / value </p>
+    </li>
+    <li>
+    <p>base de données / database</p>
+    </li>
+    <li>clé primaire / primary key</li>
+    <li>table / table</li>
+    <li>matrice / matrix</li>
+    </ul>
+    <p>EXERCICE : créer une description du groupe d'apprenants</p>
+    <h2 id="les-formats-de-donnees">Les formats de données</h2>
+    <p><a href="http://www.linternaute.com/hightech/encyclo-pratique/logiciels/windows-xp/1585/comment-afficher-l-extension-d-un-fichier-sous-windows.html">Afficher les extensions de données sous Windows</a></p>
+    <p>Général : Une <a href="http://fr.wikipedia.org/wiki/Liste_d'extensions_de_fichiers">liste des types de fichiers</a></p>
+    <h3 id="donnees">Données</h3>
+    <ul>
+    <li>pdf</li>
+    <li>xls</li>
+    <li>doc</li>
+    <li>txt</li>
+    <li>json</li>
+    <li>xml</li>
+    <li>tsv</li>
+    <li>csv</li>
+    </ul>
+    <p>Voir les exemples :</p>
+    <ul>
+    <li><a href="http://www.data.gouv.fr/fr/dataset/adresses-des-bibliotheques-publiques">Liste des bibliothèques publiques en 2011</a></li>
+    <li><a href="http://www.data.gouv.fr/fr/dataset/liste-des-etablissements-d-enseignement-des-premier-et-second-degres-du-ministere-de-l-educat-564055">Liste des établissements d'enseignement des premier et second degrés</a></li>
+    </ul>
+    <h3 id="cartographie">Cartographie</h3>
+    <ul>
+    <li>GIS, ARCGIS, etc. </li>
+    <li>shp : shapefile</li>
+    <li>kml : google maps</li>
+    <li>geojson : web map</li>
+    </ul>
+    <p>Un exemple sur le site <a href="http://smartdata.grandlyon.com/limitesadministratives/limite-administrative-du-grand-lyon-lieux-et-fdifices/">Smart Data du Grand Lyon</a></p>
+    <h3 id="images">Images</h3>
+    <ul>
+    <li>bmp, jpeg, png, tiff, gif</li>
+    </ul>
+    <p>plus d'infos et détails sur <a href="http://www.cndp.fr/crdp-montpellier/images/articles/cd48/fichiers_pdf/formats_fichiers_images.pdf">les formats d'images</a></p>
+    <h2 id="convertir-les-fichiers">Convertir les fichiers</h2>
+    <p>Comment convetir un fichier dans un autre format</p>
+    <ul>
+    <li><a href="http://www.convertcsv.com/csv-to-json.htm">CSV &gt; d'autres formats</a></li>
+    </ul>
+    <h3 id="pdf-csv">PDF &gt; CSV</h3>
+    <p>Solutions en ligne :</p>
+    <ul>
+    <li><a href="https://www.pdftoexcelonline.com/">PDF to Excel online</a></li>
+    <li><a href="http://www.zamzar.com/">Zamzar</a></li>
+    <li><a href="http://www.cometdocs.com/">Comet Docs</a></li>
+    <li><a href="http://www.documentcloud.org/home">DocumentCloud</a> et OpenCalais</li>
+    </ul>
+    <p>Le gagnant :</p>
+    <ul>
+    <li><a href="http://tabula.nerdpower.org/">Tabula</a></li>
+    </ul>
+    <p>Outils plus avancés:</p>
+    <ul>
+    <li><a href="http://www.datasciencetoolkit.org/">Data Science Toolkit</a></li>
+    <li><a href="https://scraperwiki.com/">Scraper Wiki</a></li>
+    <li><a href="http://okfnlabs.org/dataconverters/">OKFN avec Python</a></li>
+    </ul>
+    <h2 id="extraire-des-donnees-dune-page-web">Extraire des données d'une page Web</h2>
+    <p>Exemple : <a href="http://webstat.banque-france.fr/fr/browseTable.do?node=5384355">Banque de France, Endettement des Agents non financiers - Comparaisons internationales</a></p>
+    <p>Plugins Google Chrome :</p>
+    <ul>
+    <li><a href="https://chrome.google.com/webstore/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop/related">Chrome plugin TableCapture</a></li>
+    <li><a href="https://chrome.google.com/webstore/detail/table2csv/bcjpegmibcoolkaoloohgjcagfhifiah/related">Chrome plugin Table2CSV</a></li>
+    </ul>
+    <p>Utiliser Google Drive :</p>
+    <ul>
+    <li>Comprendre la structure d'une page web à l'aide de la console de Chrome ou Safari</li>
+    <li><a href="http://www.labnol.org/internet/import-html-in-google-docs/28125/">Utiliser Google Drive et la commande ImportHtml()</a></li>
+    </ul>
+    <p>Autres solutions :</p>
+    <ul>
+    <li><a href="http://datajournalismhandbook.org/1.0/en/getting_data_3.html">Extraire des données du web avec ScraperWiki </a>(en anglais)</li>
+    </ul>
+    <h2 id="autres-ressources">Autres ressources</h2>
+    <ul>
+    <li>http://gijn.org/resources/data-journalism/</li>
+    <li>https://leanpub.com/scrapingforjournalists</li>
+    <li>http://clairemiller.net/blog/2012/01/huge-list-of-data-journalism-resources/</li>
+    </ul></body></html>

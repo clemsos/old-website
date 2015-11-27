@@ -1,0 +1,11 @@
+
+  <h2>{{page.title}}</h2>
+  <p class="projectTitle">
+          <span class="project-date"><small>{{ page.date | date: "%Y"}}</small></span>
+          |
+          <span class="project-place"><small>{{ page.place}}</small></span>
+        </span>
+        <br>
+        <span class="project-desc"><b>{{ page.desc }}</b>
+    </p>
+      {{ content }}

@@ -4,7 +4,7 @@ date: 2015-01-01
 place: Shenzhen, China
 desc: Open Innovation Models in Urban China
 category: research
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 Open Innovation Models in Urban China (OPIMPUC) was an academic research project that studies the role of the emergence of new urban places dedicated to technologies (hackerspaces, coworking spaces, fablabs, etc.) in the context of China's indutrial transformation. More specifically, this project aimed at providing insights on the role of practice inherited from the open-source communities, and their relationships with the Chinese traditional manufacturing sector, including the ```shanzhai``` conterfeiting industry. Fieldwork was held in Shanghai, Shenzhen, Hong-Kong and Nanjing. The project lead to several scientific publications and conferences, as well as reports in newspapers and magazines.

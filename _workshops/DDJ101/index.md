@@ -4,7 +4,7 @@ date: 2014-01-01
 place: Lyon, France
 desc: Dataviz training for journalists
 category: trainings
-template:  projects/gallery.html
+layout: projects/gallery
 
 ---
 

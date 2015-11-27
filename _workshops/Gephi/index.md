@@ -3,7 +3,7 @@ title: Gephi Training
 date: 2012-01-01
 place:
 desc: Network analysis software
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 [Gephi](http://gephi.org) is a powerful tool for exploration and visualization of networks. Gephi offers multiples possibilites to map and understand relationships between entitites in a graph.

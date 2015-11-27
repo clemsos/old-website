@@ -3,7 +3,7 @@ title: Houjie Project
 date: 2009-01-01
 place: Wuhan, China
 desc: Wuhan backstreets documentation
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 The [Backstreet project (后街计划)](http://www.jzsqcrew.com/bjdw2012/) records moments of urban wildness by documenting the ecosystem of the Wuchang district  “backstreets” in  Wuhan, China.
 

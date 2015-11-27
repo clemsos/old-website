@@ -4,7 +4,7 @@ date: 2015-01-01
 place: Lyon, France
 desc: Training students to dataviz
 category: trainings
-template:  projects/gallery.html
+layout: projects/gallery
 
 ---
 

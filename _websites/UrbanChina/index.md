@@ -4,7 +4,7 @@ date: 2011-02-01
 desc: Urban China Magazine
 place:  Shanghai, China
 category: media
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 Official Website for Urban China magazine

@@ -3,7 +3,7 @@ title: Le Club
 date: 2014-01-01
 place: Lyon, France
 desc: Collective for geek projects
-template:  projects/gallery.html
+layout: projects/gallery
 
 ---
 

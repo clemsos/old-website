@@ -3,7 +3,7 @@ title: Emotional China
 date: 2012-01-01
 place: Beijing, China
 desc: Sentiment analysis in Chinese language
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 Emotional China is a platform that extract, store and classify emotions from tweets in Chinese language.

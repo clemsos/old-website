@@ -5,7 +5,7 @@ desc: Hacking the public sphere
 place: Manchester, UK
 single-col: true
 category: talks
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 *"Hacking the Public Sphere: from Online Sharing to Cognitive Commons"*

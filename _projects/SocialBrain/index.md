@@ -4,7 +4,7 @@ date: 2011-01-01
 place: in the Cloud
 desc: Social neurons and synapses
 category: talks
-template: projects/gallery.html
+layout: projects/gallery
 ---
 
 [Social Brain Framework (SBF)](https://github.com/sharismlab/social-brain-framework) is a set of concepts and tools to analyze online social interactions. Using the analogy of (human) brain, it provides new methods to lead Social Network Analysis (SNA) by borrowing methodologies from neurology, linguistics, psychoanalysis, sociology and computer science.

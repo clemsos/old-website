@@ -2,7 +2,7 @@
 
 <div class="row" id="projects">
   <!-- <h2>Projects</h2> -->
-  {%for post in site.projects %}
+  {%for post in site.projects reversed %}
     {% include home/tile.html post=post %}
   {% endfor %}
 </div>
@@ -10,14 +10,14 @@
 
 <div class="row">
   <h2>Workshops & Talks</h2>
-  {%for post in site.workshops %}
+  {%for post in site.workshops reversed %}
     {% include home/small-tile.html post=post %}
   {% endfor %}
 </div>
 
 <div class="row">
   <h2>Websites</h2>
-  {%for post in site.websites %}
+  {%for post in site.websites reversed %}
     {% include home/small-tile.html post=post %}
   {% endfor %}
 </div>

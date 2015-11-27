@@ -4,7 +4,7 @@ date: 2012-01-01
 place: Wuxi, China
 desc: Memes and Urban Organology
 single-col: true
-template:  projects/raw.html
+layout:  projects/raw
 content: <embed src="http://player.youku.com/player.php/sid/XNTAzMDQ4MDg4/v.swf" allowFullScreen="true" quality="high" width="470" height="380" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 ---

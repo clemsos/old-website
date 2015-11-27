@@ -3,7 +3,7 @@ title: Junkware
 date: 2014-11-01
 place: Lyon, France
 desc: Junk-based generative biohack
-template:  projects/gallery.html
+layout: projects/gallery
 
 ---
 

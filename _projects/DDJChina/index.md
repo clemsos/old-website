@@ -4,7 +4,7 @@ date: 2011-01-01
 place: Beijing, China
 desc: Data journalism community
 single-col: true
-template:  projects/gallery.html
+layout: projects/gallery
 ---
 
 I have taken part in several initiatives to foster the development of a data journalism community in China : events, teachings, etc.

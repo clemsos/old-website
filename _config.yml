@@ -1,6 +1,9 @@
 permalink: /:path
 relative_permalinks: false
 
+exclude:
+  - bin
+
 sass:
     sass_dir: scss
 

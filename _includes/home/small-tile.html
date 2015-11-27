@@ -1,8 +1,7 @@
  <article class="small-tile workshop two columns">
   <div class="project-frame">
-    <a href="{{post.url}}">
-      {{post.url}}
-      <img src="{{post.relative_path}}/thumbnail.png" class="projectThumb" alt=""/>
+    <a href="{{post.url | remove: 'index' }}">
+      <img src="{{post.url | remove: 'index' }}/thumbnail.png" class="projectThumb" alt=""/>
       <p class="projectTitle">
           <b>{{post.title}}</b>
           <br>

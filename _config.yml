@@ -1,6 +1,9 @@
 permalink: /:path
 relative_permalinks: false
 
+gems:
+  - jekyll-redirect-from
+
 exclude:
   - bin
 
@@ -20,5 +23,5 @@ collections:
         output: true
     workshops:
         output: true
-    categories:
+    pages:
         output: true

@@ -1,403 +1,400 @@
 {% include header.html %}
 
-<div class="container resume-container">
+<div class="container site.data.resume-container">
     <div id="resume">
 
-        {{#resume.basics}}
         <section id="header">
-            <h1>{{name}}</h1>
-            <h4>{{label}}</h4>
+            <h1>{{site.data.resume.basics.name }}</h1>
+            <h4>{{site.data.resume.basics.label}}</h4>
             <p><small>(CV exported from my <a target="_blank" href="http://fr.linkedin.com/in/clementrenaud">Linkedin</a> page on 2015-07-01)</small></p>
         </section>
         <section id="basics">
-            {{#if summary}}
+            {% if site.data.resume.basics.summary %}
             <div class="summary">
                 <p>{{breaklines summary}}</p>
             </div>
-            {{/if}}
+            {% endif %}
         </section>
-        {{/resume.basics}}
 
-        {{#if resume.work.length}}
+        {% if site.data.resume.work %}
         <section id="work">
             <h2>Work Experiences</h2>
-            {{#each resume.work}}
+            {% for job in site.data.resume.work %}
             <div class="item">
-                <h4 class="name"> 
-                {{#if position}}
+                <h4 class="name">
+                {% if job.position %}
                 <span class="position">
-                    {{position}}
+                    {{job.position }}
                 </span>
-                {{/if}}
-                 - 
-                {{#if company}}
-                    {{company}} 
-                {{/if}}
+                {% endif %}
+                 -
+                {% if job.company %}
+                    {{job.company}}
+                {% endif %}
                 </h4>
                 <div class="date">
                     <b>
-                    {{#if startDate}}
+                    {% if job.startDate %}
                     <span class="startDate">
-                        {{startDate}}
+                        {{job.startDate }}
                     </span>
-                    {{/if}}
-                    {{#if endDate}}
+                    {% endif %}
+                    {% if job.endDate %}
                     <span class="endDate">
-                        - {{endDate}}
+                        - {{job.endDate }}
                     </span>
-                    {{else}}
+                    {% else %}
                     <span class="endDate">
                         - Present
                     </span>
-                    {{/if}}
+                    {% endif %}
                     </b>
                 </div>
-                
-                {{#if website}}
-                <div class="website">
-                    <a href="{{website}}">{{website}}</a>
-                </div>
-                {{/if}}
-                {{#if summary}}
-                <div class="summary">
-                    <p>{{ breaklines summary}}</p>
-                </div>
-                {{/if}}
-                {{#if highlights.length}}
-                <ul class="highlights">
-                    {{#each highlights}}
-                    <li>{{.}}</li>
-                    {{/each}}
-                </ul>
-                {{/if}}
-            </div>
-            {{/each}}
-        </section>
-        {{/if}}
 
-        {{#if resume.volunteer.length}}
+                {% if job.website %}
+                <div class="website">
+                    <a href="{{job.website }}">{{job.website }}</a>
+                </div>
+                {% endif %}
+                {% if job.summary %}
+                <div class="summary">
+                    <p>{{ job.summary}}</p>
+                </div>
+                {% endif %}
+                {% if highlights %}
+                <ul class="highlights">
+                    {% for highlight in highlights %}
+                    <li>{{ highlight }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if site.data.resume.volunteer %}
         <section id="volunteer">
             <h2>Volunteer</h2>
-            {{#each resume.volunteer}}
+            {% for volunteer in site.data.resume.volunteer %}
             <div class="item">
-                {{#if organization}}
+                {% if volunteer.organization %}
                 <h3 class="company">
-                    {{organization}}
+                    {{ volunteer.organization }}
                 </h3>
-                {{/if}}
+                {% endif %}
                 <div class="date">
-                    {{#if startDate}}
+                    {% if volunteer.startDate %}
                     <span class="startDate">
-                        {{startDate}}
+                        {{ volunteer.startDate }}
                     </span>
-                    {{/if}}
-                    {{#if endDate}}
+                    {% endif %}
+                    {% if volunteer.endDate %}
                     <span class="endDate">
-                        - {{endDate}}
+                        - {{ volunteer.endDate }}
                     </span>
-                    {{else}}
+                    {% else %}
                     <span class="endDate">
                         - Present
                     </span>
-                    {{/if}}
+                    {% endif %}
                 </div>
-                {{#if position}}
+                {% if volunteer.position %}
                 <div class="position">
-                    {{position}}
+                    {{ volunteer.position }}
                 </div>
-                {{/if}}
-                {{#if website}}
+                {% endif %}
+                {% if volunteer.website %}
                 <div class="website">
-                    <a href="{{website}}">{{website}}</a>
+                    <a href="{{ volunteer.website }}">{{ volunteer.website }}</a>
                 </div>
-                {{/if}}
-                {{#if summary}}
+                {% endif %}
+                {% if volunteer.summary %}
                 <div class="summary">
-                    <p>{{summary}}</p>
+                    <p>{{ volunteer.summary}}</p>
                 </div>
-                {{/if}}
-                {{#if highlights.length}}
+                {% endif %}
+                {% if volunteer.highlights %}
                 <ul class="highlights">
-                    {{#each highlights}}
-                    <li>{{.}}</li>
-                    {{/each}}
+                    {% for highlight in volunteer.highlights %}
+                    <li>{{highlight}}</li>
+                    {% endfor %}
                 </ul>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
-        
-        {{#if resume.education.length}}
+        {% endif %}
+
+        {% if site.data.resume.education %}
         <section id="education">
             <h2>Education</h2>
             <ul>
-            {{#each resume.education}}
+            {% for educ in site.data.resume.education %}
             <li class="item">
                 <p class="educ-item">
                     <b class="date">
-                        {{#if startDate}}
+                        {% if educ.startDate %}
                         <span class="startDate">
-                            {{startDate}}
+                            {{educ.startDate }}
                         </span>
-                        {{/if}}
-                        {{#if endDate}}
+                        {% endif %}
+                        {% if educ.endDate %}
                         <span class="endDate">
-                            - {{endDate}}
+                            - {{educ.endDate }}
                         </span>
-                        {{else}}
+                        {% else %}
                         <span class="endDate">
                             - Present
                         </span>
-                        {{/if}}
+                        {% endif %}
                     </b>
 
-                {{#if institution}}
+                {% if educ.institution %}
                 <span class="institution">
-                    {{institution}}
+                    {{educ.institution }}
                 </span>
-                {{/if}}
-                {{#if area}}
+                {% endif %}
+                {% if educ.area %}
                 <span class="area">
-                    {{area}}
+                    {{educ.area}}
                 </span>
-                {{/if}}
-                {{#if studyType}}
+                {% endif %}
+                {% if educ.studyType %}
                 <span class="studyType">
-                    {{studyType}}
+                    {{educ.studyType }}
                 </span>
-                {{/if}}
-                {{#if gpa}}
+                {% endif %}
+                {% if educ.gpa %}
                 <span class="gpa">
-                    GPA: {{gpa}}
+                    GPA: {{educ.gpa}}
                 </span>
-                {{/if}}
-                {{#if courses.length}}
+                {% endif %}
+                {% if courses %}
                 <ul class="courses">
-                    {{#each courses}}
-                    <li>{{.}}</li>
-                    {{/each}}
+                    {% for course in courses %}
+                    <li>{{course }}</li>
+                    {% endfor %}
                 </ul>
-                {{/if}}
+                {% endif %}
             </li>
-            {{/each}}
+            {% endfor %}
             </ul>
         </section>
-        {{/if}}
-        
-        {{#if resume.awards.length}}
+        {% endif %}
+
+        {% if site.data.resume.awards %}
         <section id="awards">
             <h2>Awards</h2>
-            {{#each resume.awards}}
+            {% for award in site.data.resume.awards %}
             <div class="item">
-                {{#if title}}
+                {% if award.title %}
                 <div class="title">
-                    {{title}}
+                    {{award.title }}
                 </div>
-                {{/if}}
-                {{#if date}}
+                {% endif %}
+                {% if award.date %}
                 <div class="date">
-                    {{date}}
+                    {{award.date }}
                 </div>
-                {{/if}}
-                {{#if awarder}}
+                {% endif %}
+                {% if award.awarder %}
                 <div class="awarder">
-                    {{awarder}}
+                    {{award.awarder}}
                 </div>
-                {{/if}}
-                {{#if summary}}
+                {% endif %}
+                {% if award.summary %}
                 <div class="summary">
-                    <p>{{summary}}</p>
+                    <p>{{award.summary}}</p>
                 </div>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
-        
-        {{#if resume.publications.length}}
+        {% endif %}
+
+        {% if site.data.resume.publications %}
         <section id="publications">
             <h2>Publications</h2>
-            {{#each resume.publications}}
+            {% for publi in site.data.resume.publications %}
             <div class="item">
-                {{#if name}}
+                {% if publi.name %}
                 <div class="name">
-                    {{name}}
+                    {{publi.name }}
                 </div>
-                {{/if}}
-                {{#if publisher}}
+                {% endif %}
+                {% if publi.publisher %}
                 <div class="publisher">
-                    {{publisher}}
+                    {{publi.publisher}}
                 </div>
-                {{/if}}
-                {{#if releaseDate}}
+                {% endif %}
+                {% if publi.releaseDate %}
                 <div class="releaseDate">
-                    {{releaseDate}}
+                    {{publi.releaseDate }}
                 </div>
-                {{/if}}
-                {{#if website}}
+                {% endif %}
+                {% if publi.website %}
                 <div class="website">
-                    <a href="{{website}}">Link</a>
+                    <a href="{{publi.website }}">Link</a>
                 </div>
-                {{/if}}
-                {{#if summary}}
+                {% endif %}
+                {% if publi.summary %}
                 <div class="summary">
-                    <p>{{summary}}</p>
+                    <p>{{publi.summary}}</p>
                 </div>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
-        
-        {{#if resume.skills.length}}
+        {% endif %}
+
+        {% if site.data.resume.skills %}
         <section id="skills">
             <h2>Skills</h2>
-            {{#each resume.skills}}
+            {% for skill in site.data.resume.skills %}
             <div class="item">
-                {{#if name}}
+                {% if skill.name %}
                 <div class="name">
-                    {{name}}
+                    {{skill.name }}
                 </div>
-                {{/if}}
-                {{#if level}}
+                {% endif %}
+                {% if skill.level %}
                 <div class="level">
-                    <em>{{level}}</em>
+                    <em>{{skill.level}}</em>
                 </div>
-                {{/if}}
-                {{#if keywords.length}}
+                {% endif %}
+                {% if skill.keywords %}
                 <ul class="keywords">
-                    {{#each keywords}}
-                    <li>{{.}}</li>
-                    {{/each}}
+                    {% for kw in  skill.keywords %}
+                    <li>{{kw}}</li>
+                    {% endfor %}
                 </ul>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
+        {% endif %}
 
-        {{#if resume.languages.length}}
+        {% if site.data.resume.languages %}
         <section id="languages">
             <h2>Languages</h2>
-            {{#each resume.languages}}
+            {% for lang in site.data.resume.languages %}
             <p class="item">
-                {{#if language}}
+                {% if lang.language %}
                 <span class="language">
                     <b>
-                        {{language}}
+                        {{lang.language }}
                     </b>
                 </span>
-                {{/if}}
-                {{#if fluency}}
+                {% endif %}
+                {% if lang.fluency %}
                 <span class="fluency">
-                    {{fluency}}
+                    {{lang.fluency}}
                 </span>
-                {{/if}}
+                {% endif %}
             </p>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
+        {% endif %}
 
-        {{#if resume.interests.length}}
+        {% if site.data.resume.interests.length %}
         <section id="interests">
             <h2>Interests</h2>
-            {{#each resume.interests}}
+            {% for interest in site.data.resume.interests %}
             <div class="item">
-                {{#if name}}
+                {% if interest.name %}
                 <div class="name">
-                    {{name}}
+                    {{interest.name }}
                 </div>
-                {{/if}}
-                {{#if keywords.length}}
+                {% endif %}
+                {% if interest.keywords %}
                 <ul class="keywords">
-                    {{#each keywords}}
-                    <li>{{.}}</li>
-                    {{/each}}
+                    {% for kw in keywords %}
+                    <li>{{kw}}</li>
+                    {% endfor %}
                 </ul>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
-        
-        {{#if resume.references.length}}
+        {% endif %}
+
+        {% if site.data.resume.references %}
         <section id="references">
             <h2>References</h2>
-            {{#each resume.references}}
+            {% for ref in site.data.resume.references %}
             <div class="item">
-                {{#if reference}}
+                {% if ref.reference %}
                 <blockquote class="reference">
-                    {{reference}}
+                    {{ref.reference }}
                 </blockquote>
-                {{/if}}
-                {{#if name}}
+                {% endif %}
+                {% if ref.name %}
                 <div class="name">
-                    — {{name}}
+                    — {{ref.name }}
                 </div>
-                {{/if}}
+                {% endif %}
             </div>
-            {{/each}}
+            {% endfor %}
         </section>
-        {{/if}}
+        {% endif %}
 
-    {{#resume.basics}}
+
         <h3>Contact</h3>
         <div class="contact">
-            {{#if website}}
+            {% if site.data.resume.basics.website %}
             <div class="website">
                 <strong>Website</strong>
-                {{website}}
+                {{site.data.resume.basics.website }}
             </div>
-            {{/if}}
-            {{#if email}}
+            {% endif %}
+            {% if site.data.resume.basics.email %}
             <div class="email">
                 <strong>Email</strong>
-                {{email}}
+                {{site.data.resume.basics.email}}
             </div>
-            {{/if}}
-            {{#if phone}}
+            {% endif %}
+            {% if site.data.resume.basics.phone %}
             <div class="phone">
                 <strong>Phone</strong>
-                {{phone}}
+                {{site.data.resume.basics.phone }}
             </div>
-            {{/if}}
+            {% endif %}
         </div>
-        {{#location}}
+
         <section id="location">
-            {{#if address}}
+            {% if site.data.resume.basics.location.address %}
             <div class="address">
                 <strong>Address</strong>
-                {{address}}
+                {{site.data.resume.basics.location.address }}
             </div>
-            {{/if}}
-            {{#if postalCode}}
+            {% endif %}
+            {% if site.data.resume.basics.location.postalCode %}
             <div class="postalCode">
                 <strong>Postal code</strong>
-                {{postalCode}}
+                {{site.data.resume.basics.location.postalCode }}
             </div>
-            {{/if}}
-            {{#if city}}
+            {% endif %}
+            {% if site.data.resume.basics.location.city %}
             <div class="city">
                 <strong>City</strong>
-                {{city}}
+                {{site.data.resume.basics.location.city}}
             </div>
-            {{/if}}
-            {{#if countryCode}}
+            {% endif %}
+            {% if site.data.resume.basics.location.countryCode %}
             <div class="countryCode">
                 <strong>Country code</strong>
-                {{countryCode}}
+                {{site.data.resume.basics.location.countryCode }}
             </div>
-            {{/if}}
-            {{#if region}}
+            {% endif %}
+            {% if site.data.resume.basics.location.region %}
             <div class="region">
                 <strong>Region</strong>
-                {{region}}
+                {{site.data.resume.basics.location.region }}
             </div>
-            {{/if}}
+            {% endif %}
         </section>
-        {{/location}}
-        {{/resume.basics}}
+
     </div>
 </div>
 {% include footer.html %}

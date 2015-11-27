@@ -1,13 +1,16 @@
 ---
 
 title: Contact
-template: pages/bio.html
-
+layout: pages/bio
+title: My amazing post
+redirect_from:
+  - /content/pages/bio/
+  - /about/
 ---
 
-Clément Renaud is a researcher, developer and journalist. Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds. 
+Clément Renaud is a researcher, developer and journalist. Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds.
 
-I write [code](http://github.com/clemsos) and [papers](/content/pages/biblio). 
+I write [code](http://github.com/clemsos) and [papers](/content/pages/biblio).
 
 Fluent in Mandarin Chinese, I lived in China for several years, working in tech  and urban planning.
 

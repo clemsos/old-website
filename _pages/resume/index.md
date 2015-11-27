@@ -1,4 +1,7 @@
 ---
 title: Contact
-template: pages/resume.html
+layout: pages/resume
+redirect_from:
+  - /content/pages/resume
+  - /resume
 ---

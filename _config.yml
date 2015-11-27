@@ -1,4 +1,5 @@
 permalink: /:path
+baseurl: ""
 relative_permalinks: false
 
 gems:

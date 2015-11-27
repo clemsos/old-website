@@ -2,10 +2,11 @@
 
       <div class="project-frame">
       <div class="project-content">
-        <a href="{{post.path}}">
+        {{post.url | remove: 'index' }}
+        <a href="{{post.url | remove: 'index' }}">
           <p class="projectTitle">
               <span class="project-info">
-                <b>{{post.title}}</b>
+                <b>{{ post.title }}</b>
               </span>
               <br>
               <span class="project-desc"><small>{{ post.desc }}</small>
@@ -15,7 +16,7 @@
                 <span class="project-place"><small>{{ post.place}}</small></span>
               </span>
           </p>
-          <img src="{{post.url}}/thumbnail.png" class="projectThumb" alt=""/>
+          <img src="{{post.url | remove: 'index'}}thumb.png" class="projectThumb" alt=""/>
         </a>
       </div>
       </div>

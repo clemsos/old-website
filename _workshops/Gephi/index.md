@@ -4,6 +4,8 @@ date: 2012-01-01
 place:
 desc: Network analysis software
 layout: projects/gallery
+images:
+- "weibo-guardian-legend.png"
 ---
 
 [Gephi](http://gephi.org) is a powerful tool for exploration and visualization of networks. Gephi offers multiples possibilites to map and understand relationships between entitites in a graph.

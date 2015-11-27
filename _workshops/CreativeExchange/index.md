@@ -1,11 +1,10 @@
 ---
 title: The Creative Exchange
 date: 2012-01-01
-desc: Hacking the public sphere
 place: Manchester, UK
-single-col: true
-category: talks
-layout: projects/gallery
+desc: Hacking the public sphere
+layout: projects/raw
+content: <iframe src="http://www.slideshare.net/slideshow/embed_code/12968980" width="570" height="482" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"  allowfullscreen> </iframe>
 ---
 
 *"Hacking the Public Sphere: from Online Sharing to Cognitive Commons"*

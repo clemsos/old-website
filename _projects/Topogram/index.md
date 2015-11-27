@@ -4,6 +4,17 @@ title: Topogram
 desc: Open-source Toolkit for network mapping
 date: 2015-01-01
 place: World
+images:
+  - "export.png"
+  - "item1.png"
+  - "item2.png"
+  - "item3.png"
+  - "item4.png"
+  - "item5.png"
+  - "item6.png"
+  - "item7.png"
+  - "thumb.png"
+
 ---
 
 Topogram is a Python data mining library to produce time-based networks and maps from text data.

@@ -5,5 +5,9 @@ desc: UK Photographer
 single-col: true
 categories: websites
 layout: projects/gallery
+images:
+  - "Peter Dixie — Home.jpg"
+  - "Peter Dixie — Series.png"
+  - "thumb.png"
 ---
 Official Website for Shanghai-based UK photographer [Peter Dixie](http://peterdixie.com).

@@ -6,11 +6,12 @@
     </div>
     <div id="gallery" class="nine columns">
         <ul >
-        {{#each images }}
+
+        {% for image in page.images %}
             <li>
-                <img src="{{this}}" alt="">
+                <img src="{{image}}" alt="">
             </li>
-        {{/each}}
+        {% endfor %}
         </ul>
     </div>
 

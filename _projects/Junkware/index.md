@@ -4,6 +4,15 @@ date: 2014-11-01
 place: Lyon, France
 desc: Junk-based generative biohack
 layout: projects/gallery
+images:
+  - "Junkware-app.png"
+  - "junkware-img4.jpg"
+  - "install-desk.jpg"
+  - "thumb.png"
+  - "junkware-img1.jpg"
+  - "junkware-img2.jpg"
+  - "junkware-img3.jpg"
+  - "team.jpg"
 
 ---
 

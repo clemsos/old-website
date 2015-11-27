@@ -4,6 +4,8 @@ date: 2013-01-01
 desc: Generative graphic design
 category: training
 layout: projects/gallery
+images:
+- "Selection_055.png"
 ---
 
 [Processing](http://processing.org) is a programming language and development environment for visual, graphic and interactive arts. TFirst design to promote computer literacy within artists, its simplicity made it the first choice for everyone who wants to create anything visual and digital.

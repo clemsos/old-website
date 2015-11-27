@@ -5,6 +5,12 @@ place: Hong Kong
 desc: Internet community experiment in China
 category: research
 layout: projects/gallery
+images:
+  - "china-beijing-minzu.jpg"
+  - "china-chunyun2.png"
+  - "jgj2.png"
+  - "Shareviz-cn02.jpg"
+
 ---
 
 Created in 2012, Sharism Lab gather Chinese bloggers and Internet specialists in China to research and understand the new tools and practices based on information sharing. The project was initiated by [Isaac Mao](http://isaacmao.com/) and aimed at investigate existing “social” activities : social network, social business, social activism… using data science, art and philosophy.

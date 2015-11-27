@@ -5,6 +5,8 @@ place: Beijing, China
 desc: Data journalism community
 single-col: true
 layout: projects/gallery
+images:
+  - "数据新闻中文网   When Data Meet Journalism.png"
 ---
 
 I have taken part in several initiatives to foster the development of a data journalism community in China : events, teachings, etc.

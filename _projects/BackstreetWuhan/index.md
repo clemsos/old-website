@@ -4,6 +4,11 @@ date: 2009-01-01
 place: Wuhan, China
 desc: Wuhan backstreets documentation
 layout: projects/gallery
+images:
+  - "9129848_46e02beccf_o.jpg"
+  - "9119335_3cbe65e193_b.jpg"
+  - "9119581_a4da83ab59_b.jpg"
+  - "9125388_3242667c10_b.jpg"
 ---
 The [Backstreet project (后街计划)](http://www.jzsqcrew.com/bjdw2012/) records moments of urban wildness by documenting the ecosystem of the Wuchang district  “backstreets” in  Wuhan, China.
 

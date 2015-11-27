@@ -1,0 +1,15 @@
+{% include header.html %}
+
+<div class="container project-container">
+
+    <h1>Bibliography</h1>
+    <table id="pubTable" class="display"></table>
+
+</div>
+
+{% include footer.html %}
+<script>
+    $(document).ready(function() {  
+        bibtexify("biblio.bib", "pubTable");
+    });
+</script>

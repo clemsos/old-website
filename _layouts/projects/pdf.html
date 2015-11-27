@@ -1,0 +1,16 @@
+{% include header.html %}
+
+<div class="row project-container">
+    <div id="project" class="three columns doc learn">
+        {{> project-desc}}
+    </div>
+    <div class="nine columns">
+        <div class="pdf-content">
+            <object data="{{ pdfFile }}" type="application/pdf" width="100%" height="650px">
+              <p>Here is the <a href="{{pdfFile}}">original PDF file.</a></p>
+            </object>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

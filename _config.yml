@@ -1,0 +1,21 @@
+permalink: /:path
+relative_permalinks: false
+
+sass:
+    sass_dir: scss
+
+author:
+  name: "Clément Renaud"
+  profession: "Algorithmic writings"
+  headline: "Data rows & newspapers columns"
+  email: "hi@clementrenaud.com"
+
+collections:
+    projects:
+        output: true
+    websites:
+        output: true
+    workshops:
+        output: true
+    categories:
+        output: true

@@ -1,0 +1,27 @@
+{% include header.html %}
+
+<div class="row" id="projects">
+  <!-- <h2>Projects</h2> -->
+  {%for post in site.projects %}
+    {% include home/tile.html post=post %}
+  {% endfor %}
+</div>
+
+
+<div class="row">
+  <h2>Workshops & Talks</h2>
+  {%for post in site.workshops %}
+    {% include home/small-tile.html post=post %}
+  {% endfor %}
+</div>
+
+<div class="row">
+  <h2>Websites</h2>
+  {%for post in site.websites %}
+    {% include home/small-tile.html post=post %}
+  {% endfor %}
+</div>
+
+</div>
+
+{% include footer.html %}

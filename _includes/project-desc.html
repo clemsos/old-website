@@ -1,8 +1,10 @@
 
   <h2>{{page.title}}</h2>
   <p class="projectTitle">
+          {% if page.type != "page" %}
           <span class="project-date"><small>{{ page.date | date: "%Y"}}</small></span>
-          |
+          {% endif %}
+          {% if page.place %} | {% endif %}
           <span class="project-place"><small>{{ page.place}}</small></span>
         </span>
         <br>

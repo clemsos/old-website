@@ -1,21 +1,39 @@
 ---
-
-title: Contact
-layout: pages/bio
-title: My amazing post
+title: About
 redirect_from:
   - /content/pages/bio/
   - /about/
+layout: projects/gallery
+type: page
+images:
+- ClementRenaud.jpg
 ---
 
-Clément Renaud is a researcher, developer and journalist. Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds.
+**Clément Renaud is a freelance researcher**, developing experimental initiatives at the crossroad of art, code, science and technologies.
 
-I write [code](http://github.com/clemsos) and [papers](/content/pages/biblio).
+Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds.
 
-Fluent in Mandarin Chinese, I lived in China for several years, working in tech  and urban planning.
+He is an associate researcher at the [Paris Interdisciplinary Institute of Innovation](http://www.i-3.fr/?lang=en) and [Centre Norbert Elias EHESS](http://centre-norbert-elias.ehess.fr/)
 
-Graduated from Telecom ParisTech, I am usually found working at the [Atelier des Médias](http://atelier-medias.org) in Lyon (France), but you may as well try some [hackerspaces](http://xinchejian.com) in China or on [Twitter](http://twitter.com/clemsos).
+Fluent in Mandarin Chinese, he lived in China for several years, investigating social media,urban planning and innovation.
 
-Read my [full resume](/content/pages/resume) or check on [Linkedin](http://fr.linkedin.com/in/clementrenaud) profile
+Read the [full resume](/content/pages/resume) or check on [Linkedin](http://fr.linkedin.com/in/clementrenaud), [Github](http://github.com/clemsos) or [Academia](https://telecom-paristech.academia.edu/Cl%C3%A9mentRenaud).
 
-To get in touch, just drop me a line at [hi [at] clementrenaud.com](mailto:hi@clementrenaud.com) or try the 9 quai André Lassagne, 69001 Lyon in France.
+For any questions, write to [hi [at] clementrenaud.com](mailto:hi@clementrenaud.com) or [@clemsos](http://twitter.com/clemsos) on Twitter.
+
+<div style="text-align:center">
+<div class="social__item">
+        <a target="_blank" href="https://www.linkedin.com/pub/steven-roberts/7a/707/409" class="social__icon--linkedin"><i class="icon--linkedin"></i></a>
+</div>
+<div class="social__item">
+        <a target="_blank" href="https://twitter.com/clemsos" class="social__icon--twitter"><i class="icon--twitter"></i></a>
+</div>
+<div class="social__item">
+        <a target="_blank" href="http://github.com/clemsos" class="social__icon--github"><i class="icon--github"></i></a>
+</div>
+
+<br/>
+</div>
+
+
+> Photo : (cc) Christopher Adams

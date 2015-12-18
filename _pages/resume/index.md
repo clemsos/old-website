@@ -2,6 +2,6 @@
 title: Contact
 layout: pages/resume
 redirect_from:
-  - /content/pages/resume
-  - /resume
+  - /content/pages/resume/
+  - /resume/
 ---

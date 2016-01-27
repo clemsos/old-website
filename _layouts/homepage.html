@@ -11,7 +11,9 @@
 <div class="row">
   <h2>Workshops & Talks</h2>
   {%for post in site.workshops reversed %}
+  {% if post.hide != false %}
     {% include home/small-tile.html post=post %}
+  {% endif %}
   {% endfor %}
 </div>
 

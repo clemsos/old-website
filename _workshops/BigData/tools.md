@@ -1,6 +1,7 @@
 ---
 layout: workshops
 title: "Concevoir un projet de données - Exercice"
+hide: false
 ---
 
 # Outils

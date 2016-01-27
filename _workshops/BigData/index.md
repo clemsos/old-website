@@ -1,6 +1,7 @@
 ---
 layout: workshops
 title: "Concevoir un projet de données - Exercice"
+hide: false
 ---
 
 [http://clementrenaud.com/workshops/BigData/](http://clementrenaud.com/workshops/BigData/)

@@ -10,6 +10,8 @@ De nombreux outils, pas toujours évident de s'y retrouver
 
 ## Conversion de données
 
+Pour plus d'info, voir [cette page](http://clementrenaud.com/uploads/DDJ101/).
+
 * Convertir un PDF en CSV : [Tabula](http://tabula.technology/) (à télécharger)
 
 

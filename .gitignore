@@ -3,6 +3,7 @@ _site
 npm-debug.log
 node_modules
 build
+.jekyll-metadata
 
 # Logs
 logs

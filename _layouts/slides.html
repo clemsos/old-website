@@ -7,9 +7,36 @@
     <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
     <title>{{ page.title }}</title>
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @font-face {
+         font-family: "Yanone Kaffeesatz";
+         src: local("Yanone Kaffeesatz"),
+              local("YanoneKaffeesatz-Regular"),
+             url(/fonts/yanonekaffeesatz/YanoneKaffeesatz-Regular.ttf);
+         font-weight: normal;
+       }
+
+       @font-face {
+         font-family: "Ubuntu Mono";
+         src: local("Ubuntu Mono"),
+              local("UbuntuMono-Regular"),
+              url(/fonts/ubuntumono/UbuntuMono-Regular.ttf);
+         font-weight: normal;
+       }
+
+       @font-face {
+         font-family: "Droid Sans";
+         src: local("Droid Sans"),
+              local("DroidSans"),
+              url(/fonts/droidsans/DroidSans.ttf);
+         font-weight: normal;
+       }
+       @font-face {
+           font-family: "Droid Sans";
+           src: local("Droid Sans"),
+                local("DroidSans-Bold"),
+                url(/fonts/droidsans/DroidSans-Bold.ttf);
+           font-weight: bold;
+         }
 
       body {
         font-family: 'Droid Sans';
@@ -20,9 +47,9 @@
         margin-bottom: 0;
         z-index: 1;
       }
-      .remark-slide-content h1 { font-size: 3em; margin-bottom: 1em;}
-      .remark-slide-content h2 { font-size: 2em; }
-      .remark-slide-content h3 { font-size: 1.6em; }
+      .remark-slide-content h1 { font-size: 3em; margin-bottom: .5em;}
+      .remark-slide-content h2 { font-size: 2em;  margin-top: 0;}
+      .remark-slide-content h3 { font-size: 1.6em; margin-top: 0;}
 
       .footnote {
         position: absolute;
@@ -172,9 +199,98 @@
         background-repeat-y: no-repeat;
       }
 
+
+    .two-cols {
+      -webkit-column-count: 2;
+      -webkit-column-gap: 0;
+      -moz-column-count: 2;
+      -moz-column-gap: 0;
+      column-count: 2;
+      column-gap: 0;
+    }
+
+    .green {
+      color:green;
+    }
+
+    .title h1, .title h2, .title h3  {
+      margin: .3em 0;
+    }
+
+
+    .col-one-third {
+      width: 31%;
+      margin-left: 2%;
+      float: left;
+    }
+
+    .col-two-third {
+      width: 62%;
+      margin-left: 2%;
+      float: left;
+    }
+
+    .col-one-half {
+      width: 49%;
+      margin-left: 1%;
+      float: left;
+    }
+
+    .capitalize{
+      text-transform: capitalize;
+    }
+
+
+    /*.icons {
+      text-align: center;
+    }*/
+    .icons img {
+      max-width: 100px;
+      max-height: 75px;
+      padding: 5px;
+    }
+
+    /*.backlight h1, .backlight h2, .backlight h3, .backlight p {*/
+    .backlight p {
+      background: rgba(255, 255, 255, 0.5);;
+    }
+    .icons.backlight  img {
+      background: rgba(255, 255, 255, 0.5);;
+    }
+    .empty-block {
+      height: 50px;
+    }
+
+    .list-close ul {
+       list-style: none;
+       padding-left: 0;
+       line-height: .5em;
+    }
+    .left-column ul {
+      list-style: none;
+       padding-left: 0;
+    }
+    .left-column li {
+      padding-bottom: .5em;
+    }
+
+    #whitelabel {
+      position: absolute;
+      height: 30px;
+      bottom: 20px;
+      left : 300px;
+      z-index:100;
+
+    }
+
+
+
     </style>
   </head>
   <body>
+    {% if page.whitelabel %}
+      <img id="whitelabel" src="{{ page.whitelabel}}" alt="whitelabel">
+    {% endif  %}
     <textarea id="source">
       {{ content }}
     </textarea>

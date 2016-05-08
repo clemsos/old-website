@@ -175,32 +175,35 @@ class: center, middle
 ]
 
 ---
-name:networkeffect
-class: inverse, center, middle
-
-# Donner à voir
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/2LsLmcWP6-M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-.small[[Network Effect](http://networkeffect.io/) by Jonathan Harris]
-
-
----
 name:nicolasMaigret
 class: center, middle, inverse
 
 # Donner à voir
 
-![](Nico_hypersonica4.jpg)
+<iframe src="https://player.vimeo.com/video/36626555?byline=0&portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 System Introspection par [Nicolas Maigret](http://peripheriques.free.fr/blog/index.php?/works/2010-system-introspection/)
+
+---
+name:networkeffect
+class: inverse, center, middle
+
+# Comprendre le temps
+
+*"From your IP address, we see you live in France, where the average life expectancy is 81.5 years — so after 8.15 minutes (8:09), your access will be blocked for a day, so you can get back to your life."*
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/2LsLmcWP6-M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+.small[[Network Effect](http://networkeffect.io/) by Jonathan Harris]
 
 ---
 name:final
 class: center, middle, inverse
 
 ### En Conclusion
-# Le "code" et les écritures visuelles 
+# Le "code" et les écritures visuelles
+
+Quelques recommandations aux designers
 
 ---
 name:thanks

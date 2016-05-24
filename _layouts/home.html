@@ -12,7 +12,7 @@
         <ul>
           {%for post in site.projects reversed %}
             {% if post.hide != true %}
-              <li><a href="{{post.url}}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}thumbnail.png">{{post.title}}</a></li>
+              <li><a href="{{post.url}}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}">{{post.title}}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
@@ -21,6 +21,4 @@
   </div>
 </div> <!-- end .main container -->
 
-
-<script src="/js/home.js" charset="utf-8"></script>
 {% include footer.html %}

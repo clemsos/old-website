@@ -32,7 +32,7 @@
             console.log(div_top, window_top);
             if (window_top > div_top) {
                 $('#branding').addClass('sticky');
-                $('#branding a').html('&#8613;');
+                $('#branding a').html('CR');
             } else {
                 $('#branding').removeClass('sticky');
                 $('#branding a').html('Clément Renaud');
@@ -46,6 +46,32 @@
             }
 
           });
+
+          {% if page.layout == "home" %}
+            console.log("homepage");
+
+            $("#projects a").hover(function(e){
+              var img = $(this).data("src");
+              $(".cover").css("background-image", "url("+img+")");
+            })
+
+            $("#projects a").hover(function(e){
+              var img = $(this).data("src");
+              $(".cover").css("background-image", "url("+img+")").css({
+                  "transition-delay": "100ms",
+                  "opacity": "1"
+              });
+
+            }, function(e){
+              $(".cover").css({
+                  "transition-delay": "100ms",
+                  "opacity": "0"
+              });
+              //.css("background-image", "none");
+            })
+
+          {% endif %}
+
       });
     </script>
     <script>

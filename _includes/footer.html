@@ -49,26 +49,21 @@
 
           {% if page.layout == "home" %}
             console.log("homepage");
-
             $("#projects a").hover(function(e){
-              var img = $(this).data("src");
-              $(".cover").css("background-image", "url("+img+")");
-            })
-
-            $("#projects a").hover(function(e){
-              var img = $(this).data("src");
-              $(".cover").css("background-image", "url("+img+")").css({
+              var id = $(this).data("id");
+              console.log(".thumbnail[data-id='"+id+"']")
+              $(".thumbnail[data-id='"+id+"']").css({
                   "transition-delay": "100ms",
                   "opacity": "1"
               });
-
             }, function(e){
-              $(".cover").css({
+              var id = $(this).data("id");
+              $(".thumbnail[data-id='"+id+"']").css({
                   "transition-delay": "100ms",
                   "opacity": "0"
               });
-              //.css("background-image", "none");
             })
+
 
           {% endif %}
 

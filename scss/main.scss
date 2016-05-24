@@ -33,9 +33,9 @@ a:hover {
 }
 
 header#branding {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  // z-index: 9999;
+  z-index: 500;
   top:4em;
 
   h1 {
@@ -202,13 +202,25 @@ p.projectTitle {
     left: 0;
     right: 0;
     top: 0;
-    -webkit-transition: opacity 600ms ease-out;
-    transition: opacity 600ms ease-out;
-    opacity:0;
+
+    .thumbnail {
+        -webkit-transition: opacity 500ms linear;
+        transition: opacity 500ms linear;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        display: block;
+        background-size: cover;
+        background-position: center;
+      }
 }
 
 #projects {
   .nav-projects-mask {
+    z-index: 501;
     position: absolute;
     @media only screen and (max-width:640px) {
             position: relative

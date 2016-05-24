@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--
+
+
+  _|_|_|  _|                                                  _|          _|_|_|                                                  _|
+_|        _|    _|_|    _|_|_|  _|_|      _|_|    _|_|_|    _|_|_|_|      _|    _|    _|_|    _|_|_|      _|_|_|  _|    _|    _|_|_|
+_|        _|  _|_|_|_|  _|    _|    _|  _|_|_|_|  _|    _|    _|          _|_|_|    _|_|_|_|  _|    _|  _|    _|  _|    _|  _|    _|
+_|        _|  _|        _|    _|    _|  _|        _|    _|    _|          _|    _|  _|        _|    _|  _|    _|  _|    _|  _|    _|
+  _|_|_|  _|    _|_|_|  _|    _|    _|    _|_|_|  _|    _|      _|_|      _|    _|    _|_|_|  _|    _|    _|_|_|    _|_|_|    _|_|_|
+
+
+
+Clément Renaud - 2015 - http://clemenrenaud.com
+
+All static HTML and JS
+Thanks to node, Metalsmith, d3js and jQuery.
+
+-->
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ site.author.name }} | {{ site.author.profession }} | {{ this.title }} </title>
+  <meta name="description" content="Clément Renaud is a coder and researcher specialized in data visualization. He lives and works in art, academia or journalism across Europe and China.">
+  <meta name="author" content="Clément Renaud">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/scss/normalize.css">
+  <link rel="stylesheet" href="/scss/skeleton.css">
+  <link rel="stylesheet" href="/scss/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Browser Specifics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" media="all" href="css/IE.css">
+  <![endif]-->
+
+</head>
+<body class="{% if page.layout == 'homepage' %} stop-scrolling {% endif %}">

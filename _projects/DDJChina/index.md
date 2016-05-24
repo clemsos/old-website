@@ -4,7 +4,7 @@ date: 2011-01-01
 place: Beijing, China
 desc: Data journalism community
 single-col: true
-layout: projects/gallery
+layout: project
 images:
   - "数据新闻中文网   When Data Meet Journalism.png"
 ---

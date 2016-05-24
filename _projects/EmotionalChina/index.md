@@ -3,7 +3,7 @@ title: Emotional China
 date: 2012-01-01
 place: Beijing, China
 desc: Sentiment analysis in Chinese language
-layout: projects/gallery
+layout: project
 images:
   - "22.png"
   - "Screenshot-1.png"

@@ -4,7 +4,7 @@ date: 2012-01-01
 desc: SNA Dashboard
 place: Shanghai,China
 single-col: true
-layout: projects/gallery
+layout: project
 images:
  - "Echidna_Home.png"
 ---

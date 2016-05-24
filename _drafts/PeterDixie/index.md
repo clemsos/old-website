@@ -4,7 +4,7 @@ date: 2011-09-01
 desc: UK Photographer
 single-col: true
 categories: websites
-layout: projects/gallery
+layout: project
 images:
   - "Peter Dixie — Home.jpg"
   - "Peter Dixie — Series.png"

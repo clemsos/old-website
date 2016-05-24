@@ -1,5 +1,5 @@
 ---
-layout: projects/gallery
+layout: project
 title: Topogram
 desc: Open-source Toolkit for network mapping
 date: 2015-01-01

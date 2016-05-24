@@ -4,7 +4,7 @@ date: 2009-01-01
 place: Hong Kong
 desc: Internet community experiment in China
 category: research
-layout: projects/gallery
+layout: project
 images:
   - "china-beijing-minzu.jpg"
   - "china-chunyun2.png"

@@ -3,7 +3,7 @@ title: Houjie Project
 date: 2009-01-01
 place: Wuhan, China
 desc: Wuhan backstreets documentation
-layout: projects/gallery
+layout: project
 images:
   - "9129848_46e02beccf_o.jpg"
   - "9119335_3cbe65e193_b.jpg"

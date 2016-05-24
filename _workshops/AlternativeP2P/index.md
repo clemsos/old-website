@@ -3,7 +3,7 @@ title: Alternative P2P
 date: 2013-12-08
 place: Montreuil, France
 desc: Surveillance and waves
-layout:  projects/raw
+layout:  project
 frame: <iframe src="http://peripheriques.free.fr/P2P2/" allowFullScreen="true" quality="high" width="100%" height="600px" align="middle" allowScriptAccess="always" frameborder="0"></iframe>
 
 ---

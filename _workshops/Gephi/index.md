@@ -3,7 +3,7 @@ title: Gephi Training
 date: 2012-01-01
 place:
 desc: Network analysis software
-layout: projects/gallery
+layout: project
 images:
 - "weibo-guardian-legend.png"
 ---

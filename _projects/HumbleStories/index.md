@@ -3,7 +3,7 @@ title: Humble Stories
 date: 2008-01-01
 place: Songzhuang, China
 desc: Geoweb in an art village
-layout: projects/gallery
+layout: project
 images:
   - "choosea.jpg"
   - "index.jpg"

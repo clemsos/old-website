@@ -4,7 +4,7 @@ date: 2014-11-01
 place: Paris, France
 desc: phD - Visualization of memes on Sina Weibo
 category: research
-layout: projects/pdf
+layout: project
 pdfFile: thesis.pdf
 ---
 

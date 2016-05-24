@@ -4,7 +4,7 @@ date: 2011-01-01
 place: in the Cloud
 desc: Social neurons and synapses
 category: talks
-layout: projects/gallery
+layout: project
 images:
   - "09seuron1-1.jpg"
   - "01.png"

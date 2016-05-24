@@ -1,5 +1,5 @@
 ---
-layout: workshops
+layout: project
 title: "Concevoir un projet de données - Exercice"
 hide: false
 ---

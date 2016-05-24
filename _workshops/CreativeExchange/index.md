@@ -3,7 +3,7 @@ title: The Creative Exchange
 date: 2012-01-01
 place: Manchester, UK
 desc: Hacking the public sphere
-layout: projects/raw
+layout: project
 content: <iframe src="http://www.slideshare.net/slideshow/embed_code/12968980" width="570" height="482" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"  allowfullscreen> </iframe>
 ---
 

@@ -1,14 +1,12 @@
 {% include head.html %}
-
 <div class="hero main-thumbnail">
   <img src="{{page.thumbnail}}" style="" alt="thumbnail">
 </div>
 
 <div class="container" id="project">
-
   <div class="row">
     <div class="six columns">
-      <h2 class="projectTitle">
+      <h2 class="title">
         {{ page.title }}
       </h2>
       {% if page.type != "page" %}
@@ -25,5 +23,4 @@
     {{ content }}
   </div>
 </div>
-
 {% include footer.html %}

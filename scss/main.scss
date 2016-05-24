@@ -284,11 +284,19 @@ p.projectTitle {
 
 
 .hero {
+  max-height: 100vh;
+  overflow: hidden;
   img {
     max-width: 100%;
     height: auto;
   }
   margin-bottom: 3.75rem;
+}
+
+#page {
+  .title {
+    margin: 1.25em 0;
+  }
 }
 
 #project {
@@ -304,9 +312,8 @@ p.projectTitle {
       margin-bottom: 2.25rem;
     }
 
-    h2.projectTitle {
-        text-align: left;
-        margin: 0;
+    h2.title {
+      margin: 0;
     }
 
     // a {

@@ -3,10 +3,8 @@ title: About
 redirect_from:
   - /content/pages/bio/
   - /about/
-layout: projects/gallery
-type: page
-images:
-- ClementRenaud.jpg
+layout: page
+thumbnail: ClementRenaud.jpg
 ---
 
 **Clément Renaud is a freelance researcher**, developing experimental initiatives at the crossroad of art, code, science and technologies.
@@ -20,8 +18,5 @@ Fluent in Mandarin Chinese, he lived in China for several years, investigating s
 Read the [full resume](/content/pages/resume) or check on [Linkedin](http://fr.linkedin.com/in/clementrenaud), [Github](http://github.com/clemsos) or [Academia](https://telecom-paristech.academia.edu/Cl%C3%A9mentRenaud).
 
 For any questions, write to [hi [at] clementrenaud.com](mailto:hi@clementrenaud.com) or [@clemsos](http://twitter.com/clemsos) on Twitter.
-
-
-
 
 > Photo : (cc) Christopher Adams

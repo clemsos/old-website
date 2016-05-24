@@ -1,31 +1,26 @@
-{% include header.html %}
+{% include head.html %}
 
-<div class="row" id="projects">
-  <!-- <h2>Projects</h2> -->
-  {%for post in site.projects reversed %}
-    {% if post.hide != true %}
-      {% include home/tile.html post=post %}
-    {% endif %}
-  {% endfor %}
+<div class="cover">
 </div>
+<div class="home container tall">
+  <div class="row">
+    <div class="six columns tall">
+      {% include header.html %}
+      {% include menu.html %}
+    </div>
+    <div id="projects" class="six columns tall">
+      <div class="nav-projects-mask">
+        <ul>
+          {%for post in site.projects reversed %}
+            {% if post.hide != true %}
+              <li><a href="{{post.url}}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}thumbnail.png">{{post.title}}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> <!-- end .main container -->
 
-
-<div class="row">
-  <h2>Workshops & Talks</h2>
-  {%for post in site.workshops reversed %}
-  {% if post.hide != false %}
-    {% include home/small-tile.html post=post %}
-  {% endif %}
-  {% endfor %}
-</div>
-
-<div class="row">
-  <h2>Websites</h2>
-  {%for post in site.websites reversed %}
-    {% include home/small-tile.html post=post %}
-  {% endfor %}
-</div>
-
-</div>
-
-{% include footer.html %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/js/home.js" charset="utf-8"></script>

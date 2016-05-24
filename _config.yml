@@ -11,9 +11,11 @@ exclude:
 sass:
     sass_dir: scss
 
+description: "Clément Renaud is a writer, coder and researcher interested in the transformations of technologies."
+
 author:
   name: "Clément Renaud"
-  profession: "Algorithmic writings"
+  tagline: "Algorithmic writings"
   headline: "Data rows & newspapers columns"
   email: "hi@clementrenaud.com"
 

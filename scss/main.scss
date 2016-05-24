@@ -12,7 +12,6 @@ hi@clementrenaud.com
 @import "includes/typo";
 @import "includes/colors";
 @import "includes/layout";
-@import "includes/terminal";
 @import "includes/media";
 @import "includes/biblio";
 @import "includes/resume";
@@ -45,49 +44,56 @@ h3:hover {
 
 header {
 
-    z-index: 9999;
-    width: 100%;
-    margin: 3em 0 .5em -14px;
+  z-index: 9999;
+  width: 100%;
+  margin: 3em 0 .5em 0;
 
-    #main-title a, #desc a,  #main-title a:visited {
-        color : $header-title-color;
-    }
+  h1 {
+    font-size: 26pt;
+    // font-weight: 500;
+  }
 
-    #desc a:hover, #main-title a:hover {
-       color : $title-hover-color;
-    }
+  #main-title a, #desc a,  #main-title a:visited {
+      color : $header-title-color;
+  }
 
-    .map path {
-        stroke : none;
-    }
-    // svg {
-    //     position:absolute;
-    //     left:0px;
-    //     top:90px;
-    //     width:100%;
-    // }
+  #desc a:hover, #main-title a:hover {
+     color : $title-hover-color;
+  }
 
-    .node {
-      stroke: #fff;
-      stroke-width: 1.5px;
-    }
+  .map path {
+      stroke : none;
+  }
 
-    .link {
-      stroke: #999;
-      stroke-opacity: .6;
-    }
+}
+
+#desc {
+  margin-top: 1em;
+  font-size: .9em;
+  width:75%;
+  p {
+    text-align: left;
+  }
+}
 
 
-    path {
-      stroke: steelblue;
-      stroke-width: 1;
-      fill: none;
-    }
+#showcase {
+  padding-top: 1em;
+  .node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
 
-    #showcase {
-        padding-top: 1em;
-    }
+  .link {
+    stroke: #999;
+    stroke-opacity: .6;
+  }
 
+  path {
+    stroke: steelblue;
+    stroke-width: 1;
+    fill: none;
+  }
 }
 
 img {
@@ -118,11 +124,9 @@ img {
 
     margin: 13px 0 0 0;
 
-
     ul li {
-        display: inline;
-        // margin: 0 20px 0 0;
-        margin-bottom: 130px;
+      list-style: none;
+      margin: 0 20px 0 0;
     }
 
     a {

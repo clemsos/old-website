@@ -1,0 +1,30 @@
+{% include head.html %}
+
+<div class="hero main-thumbnail">
+  <img src="{{page.thumbnail}}" style="" alt="thumbnail">
+</div>
+
+<div class="container" id="project">
+
+  <div class="row">
+    <div class="six columns">
+      <h2 class="projectTitle">
+        {{ page.title }}
+      </h2>
+      <br>
+      {% if page.type != "page" %}
+      <span class="project-date"><small>{{ page.date | date: "%Y"}}</small></span>
+      {% endif %}
+      {% if page.place %}, {% endif %}
+      <span class="project-place"><small>{{ page.place}}</small></span>
+    </div>
+    <div class="six columns">
+      <p class="project-desc">{{page.desc}}</p>
+    </div>
+  </div>
+  <div class="row">
+    {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}

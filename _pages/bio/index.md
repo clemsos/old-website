@@ -21,19 +21,7 @@ Read the [full resume](/content/pages/resume) or check on [Linkedin](http://fr.l
 
 For any questions, write to [hi [at] clementrenaud.com](mailto:hi@clementrenaud.com) or [@clemsos](http://twitter.com/clemsos) on Twitter.
 
-<div style="text-align:center">
-<div class="social__item">
-        <a target="_blank" href="https://www.linkedin.com/pub/steven-roberts/7a/707/409" class="social__icon--linkedin"><i class="icon--linkedin"></i></a>
-</div>
-<div class="social__item">
-        <a target="_blank" href="https://twitter.com/clemsos" class="social__icon--twitter"><i class="icon--twitter"></i></a>
-</div>
-<div class="social__item">
-        <a target="_blank" href="http://github.com/clemsos" class="social__icon--github"><i class="icon--github"></i></a>
-</div>
 
-<br/>
-</div>
 
 
 > Photo : (cc) Christopher Adams

@@ -34,10 +34,6 @@ a:hover {
     color:$link-hover-color;
 }
 
-h3:hover {
-    color:$title-hover-color;
-}
-
 header {
 
   z-index: 9999;
@@ -282,23 +278,26 @@ p.projectTitle {
 }
 
 
-
+// Upper photo
 .hero {
   max-height: 100vh;
   overflow: hidden;
   img {
+    width:100%;
     max-width: 100%;
     height: auto;
   }
   margin-bottom: 3.75rem;
 }
 
-#page {
+// Page layout
+.page {
   .title {
     margin: 1.25em 0;
   }
 }
 
+// Single project layout
 #project {
 
     padding : 0 3em 0 0;
@@ -319,6 +318,13 @@ p.projectTitle {
     // a {
     //     font-weight: bold;
     // }
+}
+
+// Writings page
+#writings {
+  li {
+    list-style: none;
+  }
 }
 
 .video {

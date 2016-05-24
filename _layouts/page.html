@@ -3,7 +3,7 @@
   <img src="{{page.thumbnail}}" style="" alt="thumbnail">
 </div>
 
-<div class="container" id="page">
+<div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
   <h2 class="title">
     {{ page.title }}
   </h2>

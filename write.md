@@ -11,6 +11,10 @@ id: writings
 * Bandits Brought Technology To This World, Aksioma – Institute for Contemporary Art,
 2015.
 
+### Talks
+
+* TEDx
+* blabla
 
 ### Academic Papers & Conferences
 

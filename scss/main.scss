@@ -32,33 +32,39 @@ a:hover {
     color:$link-hover-color;
 }
 
-header {
-
-  z-index: 9999;
+header#branding {
+  position: fixed;
   width: 100%;
-  margin: 3em 0 .5em 0;
+  z-index: 9999;
+  top:4em;
 
   h1 {
     font-size: 26pt;
-    // font-weight: 500;
   }
 
-  #main-title a, #desc a,  #main-title a:visited {
-      color : $header-title-color;
+  a, a:visited {
+    color : $header-title-color;
   }
 
-  #desc a:hover, #main-title a:hover {
-     color : $title-hover-color;
+  &.sticky {
+    top: 10px;
+    a {
+      border-radius: 50%;
+      font-size: .7em;
+      padding: 10px 5px 5px 5px;
+      color: white;
+      opacity: 0.5;
+      background: $header-link-color;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
-
-  .map path {
-      stroke : none;
-  }
-
 }
 
 #desc {
-  margin-top: 1em;
+  margin-top: 8em;
+
   font-size: .9em;
   width:75%;
   p {

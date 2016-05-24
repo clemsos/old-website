@@ -1,8 +1,6 @@
 {% include head.html %}
-<div class="hero main-thumbnail">
-  <img src="{{page.thumbnail}}" style="" alt="thumbnail">
-</div>
-
+{% include header.html %}
+{% include hero.html %}
 <div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
   <h2 class="title">
     {{ page.title }}

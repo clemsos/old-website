@@ -22,6 +22,32 @@
         </div>
     </div>
   </div>
+    <script type="text/javascript"   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script>
+      $( document ).ready(function() {
+
+          $(window).scroll(function(e) {
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor').offset().top - 200;
+            console.log(div_top, window_top);
+            if (window_top > div_top) {
+                $('#branding').addClass('sticky');
+                $('#branding a').html('&#8613;');
+            } else {
+                $('#branding').removeClass('sticky');
+                $('#branding a').html('Clément Renaud');
+            }
+
+            if (window_top > div_top/2 && window_top - div_top < 200) {
+              $('#branding').fadeOut(250);
+              console.log("now!")
+            } else {
+                $('#branding').fadeIn(250);
+            }
+
+          });
+      });
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +56,6 @@
 
       ga('create', 'UA-31114908-1', 'auto');
       ga('send', 'pageview');
-
     </script>
 
 </body>

@@ -91,15 +91,18 @@ h4 {
 }
 
 p {
-    text-align: justify;
+
     // font-size:1.2em;
     // line-height: 1.5;
     margin-bottom: 1.5rem;
 }
 
+a {
+  font-weight: 600;
+}
 p a {
-color: $link-color;
-text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 }
 
 p a:hover {

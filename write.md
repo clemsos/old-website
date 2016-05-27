@@ -11,11 +11,6 @@ id: writings
 * Bandits Brought Technology To This World, Aksioma – Institute for Contemporary Art,
 2015.
 
-### Talks
-
-* TEDx
-* blabla
-
 ### Academic Papers & Conferences
 
 * Renaud, Fernandez & Puel (2015). Learning in the fab city : open innovation and the

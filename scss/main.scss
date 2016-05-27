@@ -33,7 +33,7 @@ a:hover {
 }
 
 header#branding {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 500;
   top:4em;
@@ -222,14 +222,17 @@ p.projectTitle {
   .nav-projects-mask {
     z-index: 501;
     position: absolute;
-    @media only screen and (max-width:640px) {
-            position: relative
-    }
     top: 10%;
     height: auto;
     bottom: 5%;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+    width:110%;
+    
+    @media only screen and (max-width:640px) {
+            position: relative;
+    }
+
   }
 
   li {

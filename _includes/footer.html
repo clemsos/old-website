@@ -51,7 +51,7 @@
             console.log("homepage");
             $("#projects a").hover(function(e){
               var id = $(this).data("id");
-              console.log(".thumbnail[data-id='"+id+"']")
+              // console.log(".thumbnail[data-id='"+id+"']")
               $(".thumbnail[data-id='"+id+"']").css({
                   "transition-delay": "100ms",
                   "opacity": "1"
@@ -64,7 +64,35 @@
               });
             })
 
+            // auto scroll
+            $("#projects").mousemove(function (e) {
 
+              // Define size for top and bottom regions
+              var bottomRegionSize = 25;
+              var topRegionSize = 25;
+              var myscroll = $('.nav-projects-mask')
+              var y = e.pageY - $(this).offset().top;
+              // console.log(myscroll.offset(), y)
+              // myscroll.stop();
+              var delta = y * 0.03;
+              if (y >= myscroll.offset().top && y <= myscroll.offset().top+topRegionSize) {
+                  // Move to top
+                  console.log("top")
+                  myscroll.scrollTop(function(i, v) {
+                    console.log(delta)
+                      return v - delta;
+                  });
+              }
+              else if (y >= (myscroll.height() - bottomRegionSize) && y <= myscroll.height()) {
+                  console.log("down")
+                  //Down
+                  myscroll.scrollTop(function(i, v) {
+                    console.log(delta)
+                      return v + delta/3;
+                  });
+                  webkitRequestAnimationFrame(f);
+              }
+            });
           {% endif %}
 
       });

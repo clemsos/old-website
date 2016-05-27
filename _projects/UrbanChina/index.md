@@ -5,7 +5,7 @@ desc: Urban China Magazine
 place:  Shanghai, China
 category: media
 layout: project
-thumbnail: "workspace-1_069-1357210858.jpg"
+thumbnail: "covers.jpg"
 images:
   - "Screen-Shot-2011-12-13-at-3.50.52-PM.jpg"
   - "Screen-Shot-2011-12-13-at-3.51.23-PM.png"

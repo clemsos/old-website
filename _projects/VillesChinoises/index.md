@@ -6,7 +6,7 @@ desc: Chinese urban innovations
 single-col: true
 category: media
 layout: project
-thumbnail: "Villeschinoises-2.jpg"
+thumbnail: "donghu.jpg"
 ---
 
 [Villes Chinoises](www.villeschinoises.com) is  a platform for exchanges and discussions about cities and innovations in urban China.

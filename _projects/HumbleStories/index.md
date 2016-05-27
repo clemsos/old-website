@@ -4,11 +4,11 @@ date: 2008-01-01
 place: Songzhuang, China
 desc: Geoweb in an art village
 layout: project
+thumbnail: "page4.jpg"
 images:
   - "choosea.jpg"
   - "index.jpg"
   - "_Page 3.jpg"
-  - "_Page 4.jpg"
   - "Page 2.jpg"
   - "Page 9.jpg"
   - "thumb.png"

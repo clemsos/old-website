@@ -1,12 +1,11 @@
 ---
-title: DDJ China
+title: Data Journalism China
 date: 2011-01-01
 place: Beijing, China
 desc: Data journalism community
 single-col: true
 layout: project
-images:
-  - "数据新闻中文网   When Data Meet Journalism.png"
+thumbnail: "数据新闻中文网   When Data Meet Journalism.png"
 ---
 
 I have taken part in several initiatives to foster the development of a data journalism community in China : events, teachings, etc.

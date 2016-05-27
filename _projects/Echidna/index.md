@@ -5,8 +5,7 @@ desc: SNA Dashboard
 place: Shanghai,China
 single-col: true
 layout: project
-images:
- - "Echidna_Home.png"
+thumbnail: "Echidna_Home.png"
 ---
 
 The Echidna system is a real-time data mining system with a dahsboard to monitor trending keywords on Sina Weibo.

@@ -5,17 +5,7 @@
             <h5>{{ site.author.name }}</h5>
             <p>{{ site.description }}</p>
           </div>
-          <div class="four columns" id="social">
-            <div class="social__item">
-                    <a target="_blank" href="https://www.linkedin.com/pub/steven-roberts/7a/707/409" class="social__icon--linkedin"><i class="icon--linkedin"></i></a>
-            </div>
-            <div class="social__item">
-                    <a target="_blank" href="https://twitter.com/clemsos" class="social__icon--twitter"><i class="icon--twitter"></i></a>
-            </div>
-            <div class="social__item">
-                    <a target="_blank" href="http://github.com/clemsos" class="social__icon--github"><i class="icon--github"></i></a>
-            </div>
-          </div>
+          {% include social.html %}
           <div class="four columns" id="ok">
               For questions and inquiries : <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
           </div>

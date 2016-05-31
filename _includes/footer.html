@@ -12,7 +12,8 @@
         </div>
     </div>
   </div>
-    <script type="text/javascript"   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <!-- <script type="text/javascript"   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> -->
+    <script type="text/javascript"   src="/lib/jquery.js"></script>
     <script>
       $( document ).ready(function() {
 
@@ -22,7 +23,7 @@
             console.log(div_top, window_top);
             if (window_top > div_top) {
                 $('#branding').addClass('sticky');
-                $('#branding a').html('CR');
+                $('#branding a').html('Clément Renaud');
             } else {
                 $('#branding').removeClass('sticky');
                 $('#branding a').html('Clément Renaud');

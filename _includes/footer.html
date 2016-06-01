@@ -52,11 +52,11 @@
             $("#projects").mousemove(function (e) {
 
               // Define size for top and bottom regions
-              var bottomRegionSize = 25;
-              var topRegionSize = 25;
+              var bottomRegionSize = 200;
+              var topRegionSize = 200;
               var myscroll = $('.nav-projects-mask')
               var y = e.pageY - $(this).offset().top;
-              var delta = y * 0.03;
+              var delta = y * 0.02;
 
               if (y >= myscroll.offset().top && y <= myscroll.offset().top+topRegionSize) {
                   // Move to top

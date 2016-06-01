@@ -24,6 +24,7 @@ He holds a doctorate in Mangement of Information Systems from Telecom ParisTech,
 + Associate researcher at [Centre Norbert Elias EHESS](http://centre-norbert-elias.ehess.fr/)
 + Qualified assistant professor in Geography (CNRS section 39)
 + Developer at [Fabricatorz](http://fabricatorz.com), Inc.
++ Co-founder at [Le Club](http://leclub.io)
 
 **EDUCATION**
 

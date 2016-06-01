@@ -5,7 +5,9 @@
             <h5>{{ site.author.name }}</h5>
             <p>{{ site.description }}</p>
           </div>
-          {% include social.html %}
+          <div class="four columns" id="social">
+            {% include social.html %}
+          </div>
           <div class="four columns" id="ok">
               For questions and inquiries : <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
           </div>

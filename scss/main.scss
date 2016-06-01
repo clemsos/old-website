@@ -422,3 +422,20 @@ p.projectTitle {
     }
 
 }
+
+
+#about {
+  ul li {
+    line-height: 1em;
+    list-style: none;
+  }
+  .social {
+    text-align: center;
+  }
+
+  .social__item a, .social__item i {
+    background-color: white;
+    color: black;
+  }
+
+}

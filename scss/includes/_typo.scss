@@ -94,14 +94,3 @@ p {
     // line-height: 1.5;
     margin-bottom: 1.5rem;
 }
-
-p a {
-  color: $link-color;
-  text-decoration: none;
-}
-
-p a:hover {
-color: $link-hover-color;
-text-decoration: none;
-transition: color 0.3s;
-}

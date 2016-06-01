@@ -24,13 +24,24 @@ body {
 
 
 a, a:visited {
-    text-decoration: none;
-    color:$link-color;
+  text-decoration: none;
+  color:$link-color;
 }
 
 a:hover {
-    color:$link-hover-color;
+  transition: color 0.3s;
+  // font-weight: bold;
 }
+
+p a {
+  color:$link-color;
+}
+
+p a:hover {
+  color: $link-hover-color;
+  // text-decoration: underline;
+}
+
 
 header#branding {
   position: fixed;
@@ -44,12 +55,14 @@ header#branding {
   }
 
   a, a:visited {
+    color:$header-title-color;
     padding: 10px 5px 5px 5px;
     background: rgba(255,255,255, 0.3);
     opacity:1;
   }
 
   a:hover {
+    font-weight: normal;
     color: white;
     background: #000;
   }
@@ -142,7 +155,8 @@ img {
     }
 
     a:hover {
-        color : $title-hover-color;
+      font-weight: normal;
+      color : $title-hover-color;
     }
 
 
@@ -266,10 +280,12 @@ p.projectTitle {
   }
 
   a {
+    color: $text-color;
     display: inline-block!important;
     white-space: nowrap;
     padding: .325rem .75rem;
     letter-spacing: .02em;
+    font-weight: normal;
 
     &:hover {
       background-color: #000;
@@ -320,16 +336,9 @@ p.projectTitle {
   overflow: hidden;
   background-color: #FFF;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
   background-attachment: scroll;
   height: 100%;
-
-
-  // img {
-  //   width:100%;
-  //   max-width: 100%;
-  //   height: auto;
-  // }
   margin-bottom: 3.75rem;
 }
 
@@ -352,6 +361,7 @@ p.projectTitle {
 
     #project-header {
       min-height: 5em;
+      margin-bottom: 2.5rem;
     }
 
     p {

@@ -4,7 +4,7 @@ title: Topogram
 desc: Open-source Toolkit for network mapping
 date: 2015-01-01
 place: World
-thumbnail: "Topogram-Network.png"
+thumbnail: "Topogram-Screenshot.jpg"
 images:
   - "export.png"
   - "item1.png"

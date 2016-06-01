@@ -49,8 +49,8 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 
 ### Exhibitions
 
-* 2014 - One Space, Shanghai
-* 2014 - Shanghai Maker Karnival, Shanghai
-* 2012 - Smart City Biennale at Chinese Museum Of Digital Arts - Beijing
-* 2012 - RAWR! at CaoChangdi - Beijing Design Week
-* 2012 - Mogashan Rd, V-Art Center - Shanghai
+* 2014 - *Junkware* in One Space, Shanghai
+* 2014 - *Junkware* in Shanghai Maker Karnival, Shanghai
+* 2012 - *Aether Mashup* in Smart City Biennale at Chinese Museum Of Digital Arts - Beijing
+* 2012 - *Aether Mashup* in RAWR! at CaoChangdi - Beijing Design Week
+* 2012 - *Aether Mashup* in Mogashan Rd, V-Art Center - Shanghai

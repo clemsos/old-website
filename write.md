@@ -13,7 +13,7 @@ id: writings
 (Lubjana, Slovenia) 2015. [link](http://thepiratebook.net)
 * Etats Généraux du Chaos. PGKO editions (Tours, France)
 
-### Academic Papers
+### Peer-Reviewed Journal Articles and Book Chapters
 
 * Renaud (2016). Méthodologies d’analyse et de visualisation de la circulation des mèmes Internet. In *Les Mèmes Langagiers*, Revue Française de Linguistique pp. 1–25, Paris, France. [link](/uploads/papers/Preprint_TravauxLinguistique.pdf)
 * Renaud, Puel & Fernandez (2016). Topogrammes : les mèmes Internet ont-ils un mode de propagation

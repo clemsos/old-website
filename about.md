@@ -11,7 +11,7 @@ thumbnail-position: "center top"
 
 Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds.
 
-Clément is also a developer at [Fabricatorz](http://fabricatorz.com)
+Clément is also a developer at
 
 Fluent in Mandarin Chinese, he lived in China for several years, investigating social media,urban planning and innovation.
 
@@ -23,7 +23,7 @@ He holds a doctorate in Mangement of Information Systems from Telecom ParisTech,
 + Associate researcher at the [Paris Interdisciplinary Institute of Innovation](http://www.i-3.fr/?lang=en)
 + Associate researcher at [Centre Norbert Elias EHESS](http://centre-norbert-elias.ehess.fr/)
 + Qualified assistant professor in Geography (CNRS section 39)
-+ Developer at Fabricatorz, Inc.
++ Developer at [Fabricatorz](http://fabricatorz.com), Inc.
 
 **EDUCATION**
 

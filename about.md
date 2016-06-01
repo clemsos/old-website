@@ -11,10 +11,10 @@ thumbnail-position: "center top"
 Clément Renaud is a French researcher, artist and writer specialized in network analysis and data visualization.
 
 
-Fluent in Mandarin Chinese, he has lived and worked in China for several years in the fields of social media, urban planning and innovation. He holds a doctorate in Mangement of Information Systems from Telecom ParisTech, EDITE de Paris (ED130, Informatique, télécommunications et électronique de Paris).
+Fluent in Mandarin Chinese, he has lived and worked in China for several years in the fields of social media and urban planning. He holds a doctorate in Management of Information Systems from Telecom ParisTech, EDITE de Paris (ED130, Informatique, Télécommunications et Electronique).
 
 
-Clément Renaud is available for data visualization projects, consulting on innovation in China, exhibitions, speaking engagements, and media inquiries. Please get in touch with him directly through one of the options below.
+Clément Renaud is available for data visualization projects, consulting about innovation in China, exhibitions, speaking engagements, and media inquiries. Please get in touch with him directly through one of the options below.
 
 <br>
 <ul style="text-align:center">  

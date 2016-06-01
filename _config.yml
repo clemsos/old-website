@@ -11,7 +11,7 @@ exclude:
 sass:
     sass_dir: scss
 
-description: "Clément Renaud is a writer, coder and researcher interested in the transformations of technologies."
+description: "Clément Renaud is a French researcher, artist and writer specialized in social network analysis and data visualization."
 
 author:
   name: "Clément Renaud"

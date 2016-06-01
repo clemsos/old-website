@@ -1,7 +1,8 @@
 ---
-title: Teachings / Workshop
+title: Talk / Teach
 layout:  page
-thumbnail: "http://i.giphy.com/j1QCUierOvDxu.gif"
+thumbnail: "/uploads/teach.gif"
+thumbnail-position: "center"
 id: teachings
 ---
 

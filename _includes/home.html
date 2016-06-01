@@ -1,14 +1,14 @@
 <div class="cover">
   {%for post in site.projects reversed %}
     {% if post.hide != true %}
-      <div class="thumbnail" data-id="{{ forloop.index }}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}" style="background-image:url({{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }})"></div>
+      <div class="thumbnail" data-id="{{ forloop.index }}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}" style="background-image:url({{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }})  {% if post.thumbnail-position %} background-position:'{{post.thumbnail-position}}' {% endif %}"></div>
     {% endif %}
   {% endfor %}
 </div>
 <div class="home container tall">
   <div class="row">
     <div class="six columns tall">
-      {% include menu.html %}      
+      {% include menu.html %}
     </div>
     <div id="projects" class="six columns tall">
       <div class="nav-projects-mask">

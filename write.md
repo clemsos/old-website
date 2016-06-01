@@ -1,7 +1,8 @@
 ---
 title: Writings / Exhibitions
 layout:  page
-thumbnail: "http://i.giphy.com/XIqCQx02E1U9W.gif"
+thumbnail: "/uploads/write_with_computer.gif"
+thumbnail-position: "center bottom"
 id: writings
 images:
 - /uploads/houjie/wall.jpg

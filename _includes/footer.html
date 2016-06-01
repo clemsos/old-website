@@ -17,26 +17,19 @@
     <script>
       $( document ).ready(function() {
 
+        {% if page.layout != "home" %}
+          $('#branding').addClass('sticky');
           $(window).scroll(function(e) {
             var window_top = $(window).scrollTop();
             var div_top = $('#sticky-anchor').offset().top - 200;
-            console.log(div_top, window_top);
-            if (window_top > div_top) {
-                $('#branding').addClass('sticky');
-                $('#branding a').html('Clément Renaud');
-            } else {
-                $('#branding').removeClass('sticky');
-                $('#branding a').html('Clément Renaud');
-            }
-
-            if (window_top > div_top/2 && window_top - div_top < 200) {
+            if (window_top > 25 && window_top - div_top < 50) {
               $('#branding').fadeOut(250);
-              console.log("now!")
             } else {
                 $('#branding').fadeIn(250);
             }
 
           });
+          {% endif %}
 
           {% if page.layout == "home" %}
             console.log("homepage");

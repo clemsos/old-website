@@ -1,7 +1,7 @@
 ---
 title: Teachings / Workshop
 layout:  page
-thumbnail: "/uploads/houjie/wall.jpg"
+thumbnail: "http://i.giphy.com/j1QCUierOvDxu.gif"
 id: teachings
 ---
 

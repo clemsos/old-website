@@ -2,31 +2,29 @@
 layout: project
 title: Topogram
 desc: Open-source Toolkit for network mapping
-date: 2015-01-01
+date: 2016-01-01
 place: World
 thumbnail: "Topogram-Screenshot.jpg"
-images:
-  - "export.png"
-  - "item1.png"
-  - "item2.png"
-  - "item3.png"
-  - "item4.png"
-  - "item5.png"
-  - "item6.png"
-  - "item7.png"
-  - "thumb.png"
+link: http://topogram.io
 
 ---
 
-Topogram is a Python data mining library to produce time-based networks and maps from text data.
+Topogram is an open-source web toolkit to map social, semantic and spatio-temporal dynamics. It answers the growing need for interactive mapping of complex online and offline interactions.
 
-Frustration is the most ignored part of data science work.
+The software is divided into 2 parts:
 
-Right now, you should be working on this amazing 3D visualization but you still have to parse the date correctly and to fix all those UTF-8 encoding bugs.
+1. a Python mining library and webserver to extract networks of words, citations and places from text data and
+2. a collaborative visualization interface to edit, annotate and publish graphs.
 
-To help you survive this difficult condition, Topogram will provide you with an easy way to create data pipelines with only a few lines of Python code.
+For more details, read the [FAQ](http://topogram.io/faq) on the [official website](http://topogram.io).
+The code is available on [Github](http://github.com/topogram/topogram).
 
-
-* Official [website](http://topogram.io)
-* Code on [Github](http://github.com/topogram/topogram)
-* Read the [docs](http://topogram.readthedocs.org/)
+![](export.png)
+![](item1.png)
+![](item2.png)
+![](item3.png)
+![](item4.png)
+![](item5.png)
+![](item6.png)
+![](item7.png)
+![](thumb.png)

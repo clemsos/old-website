@@ -4,7 +4,7 @@ date: 2015-11-01
 place: World
 desc: 1-day launchpad events to support emerging initiatives in digital arts and media
 layout: project
-thumbnail: "model.gif"
+thumbnail: "desk.jpg"
 link: http://protocultural.org
 ---
 

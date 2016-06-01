@@ -4,8 +4,6 @@ layout: page
 thumbnail: "/uploads/write_with_computer.gif"
 thumbnail-position: "center bottom"
 id: writings
-images:
-- /uploads/houjie/wall.jpg
 ---
 
 ### Book Sections / Chapters

@@ -1,9 +1,10 @@
 ---
 title: About
+layout: page
 redirect_from:
   - /content/pages/bio/
-layout: page
 thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
+thumbnail-position: "center top"
 ---
 
 **Clément Renaud is a freelance researcher**, developing experimental initiatives at the crossroad of art, code, science and technologies.

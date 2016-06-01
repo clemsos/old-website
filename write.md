@@ -1,10 +1,11 @@
 ---
 title: Writings / Exhibitions
 layout:  page
-thumbnail: "/uploads/houjie/wall.jpg"
+thumbnail: "/uploads/texteditor.png"
 id: writings
+images:
+- /uploads/houjie/wall.jpg
 ---
-
 
 ### Book Sections / Chapters
 

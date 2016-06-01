@@ -10,16 +10,26 @@ thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
 
 Specialized in network analysis and data visualization, he works with humans, migrants, geeks, scholars and machines of all kinds.
 
-Academic credentials
+Clément is also a developer at [Fabricatorz](http://fabricatorz.com)
+
+Fluent in Mandarin Chinese, he lived in China for several years, investigating social media,urban planning and innovation.
+
+**What I do**
+
+* map
+* write
+* talk
+* teach
+
+## [hire me now !](mailto:hi@clementrenaud.com)
+
+**Academic credentials**
 
 + phD at Telecom ParisTech, EDITE de Paris (ED130, Informatique, télécommunications et électronique de Paris)
 + Associate researcher at the [Paris Interdisciplinary Institute of Innovation](http://www.i-3.fr/?lang=en)
 + Associate researcher at [Centre Norbert Elias EHESS](http://centre-norbert-elias.ehess.fr/)
 + Qualified assistant professor in Geography (CNRS section 39)
 
-Clément is also a developer at [Fabricatorz](http://fabricatorz.com)
-
-Fluent in Mandarin Chinese, he lived in China for several years, investigating social media,urban planning and innovation.
 
 Read the [full resume](/content/pages/resume) or check on [Linkedin](http://fr.linkedin.com/in/clementrenaud), [Github](http://github.com/clemsos) or [Academia](https://telecom-paristech.academia.edu/Cl%C3%A9mentRenaud).
 

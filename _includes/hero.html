@@ -1,3 +1,6 @@
-<div class="hero main-thumbnail" style="background-image:url({{page.thumbnail}})" >
-</div>
+
+{% if page.thumbnail %}
+  <div class="hero main-thumbnail" style="background-image:url({{page.thumbnail}})" >
+  </div>
+{% endif %}
 <div id="sticky-anchor"></div>

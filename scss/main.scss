@@ -46,8 +46,19 @@ header#branding {
     color : $header-title-color;
   }
 
+  a:hover {
+    color: white;
+    background: #000;
+    padding: 10px 5px 5px 5px;
+  }
+
+
   &.sticky {
     top: 4px;
+    text-align: right;
+    #main-title {
+      width: 100%;
+    }
     a {
       // border-radius: 50%;
       font-size: .7em;
@@ -57,6 +68,7 @@ header#branding {
       background: $header-link-color;
       &:hover {
         opacity: 1;
+
       }
     }
   }
@@ -135,7 +147,7 @@ img {
     }
 
     li a {
-        padding: 0 5px 10px 0;
+        padding: 0 5px 5px 0;
         text-decoration: none;
         -moz-transition: 0.2s ease-in;
         -webkit-transition: 0.2s ease-in;

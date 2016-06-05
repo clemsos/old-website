@@ -50,6 +50,10 @@ header#branding {
   top:4em;
   opacity:1;
 
+  @media only screen and (max-width:640px) {
+      position: relative;
+  }
+
   h1 {
     font-size: 26pt;
   }
@@ -57,6 +61,7 @@ header#branding {
   a, a:visited {
     color:$header-title-color;
     padding: 10px 5px 5px 5px;
+    margin-left:-5px;
     background: rgba(255,255,255, 0.3);
     opacity:1;
   }
@@ -99,6 +104,9 @@ header#branding {
 
   font-size: .9em;
   width:75%;
+  @media only screen and (max-width:640px) {
+      margin-top: 6em;
+  }
   p {
     text-align: left;
   }
@@ -137,6 +145,9 @@ img {
   }
   p,a {
     color: white;
+  }
+  @media only screen and (max-width:640px) {
+      padding-bottom: 4em;
   }
 }
 
@@ -220,6 +231,9 @@ p.projectTitle {
 
 .tall {
   height : 100%;
+  @media only screen and (max-width:640px) {
+      height:auto;
+  }
 }
 
 .home {
@@ -263,7 +277,7 @@ p.projectTitle {
     width:110%;
 
     @media only screen and (max-width:640px) {
-            position: relative;
+      position: relative;
     }
 
   }
@@ -340,6 +354,9 @@ p.projectTitle {
   background-attachment: scroll;
   height: 100%;
   margin-bottom: 3.75rem;
+  @media only screen and (max-width:640px) {
+    height: 30%;
+  }
 }
 
 // Page layout

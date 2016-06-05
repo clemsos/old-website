@@ -146,6 +146,19 @@ img {
   p,a {
     color: white;
   }
+  #social {
+    text-align: center;
+  }
+  #ok {
+    text-align: center;
+    a {
+      padding: 10px 10px;
+      &:hover {
+        color: black;
+        background-color: white;
+      }
+    }
+  }
   @media only screen and (max-width:640px) {
       padding-bottom: 4em;
   }

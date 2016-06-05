@@ -1,3 +1,4 @@
+url: "http://clementrenaud.com"
 permalink: /:path
 baseurl: ""
 relative_permalinks: false
@@ -11,18 +12,16 @@ exclude:
 sass:
     sass_dir: scss
 
+description: "Investigates how technologies can be used to create new forms of writings, spaces and representations."
+
+keywords: "data, visualisation, design, research, China, generative design, network analysis, makers, Shenzhen, topogram, Rhône-Alpes, Lyon, memes, digital writings"
+
 author:
   name: "Clément Renaud"
-  profession: "Algorithmic writings"
+  tagline: "Algorithmic writings"
   headline: "Data rows & newspapers columns"
   email: "hi@clementrenaud.com"
 
 collections:
     projects:
-        output: true
-    websites:
-        output: true
-    workshops:
-        output: true
-    pages:
         output: true

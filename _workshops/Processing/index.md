@@ -3,7 +3,7 @@ title: Processing Workshops
 date: 2013-01-01
 desc: Generative graphic design
 category: training
-layout: projects/gallery
+layout: project
 images:
 - "Selection_055.png"
 ---

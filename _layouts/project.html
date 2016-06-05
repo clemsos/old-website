@@ -1,0 +1,36 @@
+{% include head.html %}
+{% include header.html %}
+{% include hero.html %}
+<div class="container" id="project">
+  <div id="project-header" class="row">
+    <div class="six columns">
+      <h2 class="title">
+        {{ page.title }}
+      </h2>
+      {% if page.type != "page" %}
+
+      {% if page.link %}
+        <a class="project-link" href="{{ page.link}}">
+          <small>
+          {{ page.link}}
+          </small>
+        </a>
+        <br>
+      {% endif %}
+      <span class="project-date"><small>{{ page.date | date: "%Y"}}</small></span>
+      {% endif %}
+      {% if page.place %}, {% endif %}
+      <span class="project-place"><small>{{ page.place}}</small></span>
+      {% if page.link %}
+
+      {% endif %}
+    </div>
+    <div class="six columns">
+      <p class="project-desc">{{page.desc}}</p>
+    </div>
+  </div>
+  <div class="row">
+    {{ content }}
+  </div>
+</div>
+{% include footer.html %}

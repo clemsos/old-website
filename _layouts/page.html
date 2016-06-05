@@ -1,3 +1,12 @@
+{% include head.html %}
 {% include header.html %}
-{{{ contents }}}
+{% include hero.html %}
+<div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
+  <div class="row">
+    <h2 class="title">
+      {{ page.title }}
+    </h2>
+    {{ content }}
+  </div>
+</div>
 {% include footer.html %}

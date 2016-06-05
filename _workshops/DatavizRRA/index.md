@@ -4,7 +4,7 @@ date: 2015-01-01
 place: Lyon, France
 desc: Training students to dataviz
 category: trainings
-layout: projects/gallery
+layout: project
 images:
 - "1-PREDICTOUR-storyboard -3.jpg"
 - "1-PREDICTOUR-storyboard -5.jpg"

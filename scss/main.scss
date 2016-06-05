@@ -12,84 +12,124 @@ hi@clementrenaud.com
 @import "includes/typo";
 @import "includes/colors";
 @import "includes/layout";
-@import "includes/terminal";
 @import "includes/media";
-@import "includes/biblio";
-@import "includes/resume";
 @import "includes/icons";
 @import "includes/pdf";
+
+$break-small :640px;
 
 body {
     background: $background-color;
 }
 
-em  {
-    color : $highlight-color;
-    font-weight:800;
 
-}
 a, a:visited {
-    text-decoration: none;
-    color:$link-color;
+  text-decoration: none;
+  color:$link-color;
 }
 
 a:hover {
-    color:$link-hover-color;
+  transition: color 0.3s;
+  // font-weight: bold;
 }
 
-h3:hover {
-    color:$title-hover-color;
+p a {
+  color:$link-color;
 }
 
-header {
+p a:hover {
+  color: $link-hover-color;
+  // text-decoration: underline;
+}
 
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 9999;
+
+header#branding {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  top:4em;
+  opacity:1;
+
+  @media only screen and (max-width:640px) {
+      position: relative;
+  }
+
+  h1 {
+    font-size: 26pt;
+  }
+
+  a, a:visited {
+    color:$header-title-color;
+    padding: 10px 5px 5px 5px;
+    margin-left:-5px;
+    background: rgba(255,255,255, 0.3);
+    opacity:1;
+  }
+
+  a:hover {
+    font-weight: normal;
+    color: white;
+    background: #000;
+  }
+
+
+  &.sticky {
+    top: 4px;
+    text-align: right;
+
+    #main-title {
       width: 100%;
-      background: #000;
-
-
-    #main-title a, #desc a,  #main-title a:visited {
-        color : $header-title-color;
     }
 
-    #desc a:hover, #main-title a:hover {
-       color : $title-hover-color;
+    a {
+      font-size: .7em;
+      padding: 10px 5px 5px 5px;
+      color: white;
+      background: $header-link-color;
+      opacity:.5;
+      &.invert {
+        color: $header-link-color;
+      }
+      &:hover {
+        color :white;
+        background: #000;
+        opacity: 1;
+      }
     }
+  }
+}
 
-    .map path {
-        stroke : none;
-    }
-    // svg {
-    //     position:absolute;
-    //     left:0px;
-    //     top:90px;
-    //     width:100%;
-    // }
+#desc {
+  margin-top: 8em;
 
-    .node {
-      stroke: #fff;
-      stroke-width: 1.5px;
-    }
-
-    .link {
-      stroke: #999;
-      stroke-opacity: .6;
-    }
+  font-size: .9em;
+  width:75%;
+  @media only screen and (max-width:640px) {
+      margin-top: 6em;
+  }
+  p {
+    text-align: left;
+  }
+}
 
 
-    path {
-      stroke: steelblue;
-      stroke-width: 1;
-      fill: none;
-    }
+#showcase {
+  padding-top: 1em;
+  .node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
 
-    #showcase {
-        padding-top: 1em;
-    }
+  .link {
+    stroke: #999;
+    stroke-opacity: .6;
+  }
 
+  path {
+    stroke: steelblue;
+    stroke-width: 1;
+    fill: none;
+  }
 }
 
 img {
@@ -97,34 +137,54 @@ img {
     height: auto;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 85px;
-    z-index: 15;
+#footer {
+  background: #000;
+  color: white;
 
-    .footer-bg {
-        position: fixed;
-        width: 300px;
-        height: 85px;
-        left: 0;
-        bottom: 0;
-        background: url(../img/footer-bg.png) no-repeat left bottom;
+  .container {
+    padding-top : 2.5em;
+  }
+
+
+  h5 {
+    a {
+      padding: 10px 10px 5px 10px;
+      margin-left: -10px;
+      &:hover {
+        color: black;
+        background-color: white;
+      }
     }
-}
+  }
 
+  p,a {
+    color: white;
+  }
+  #social {
+    text-align: center;
+  }
+  #ok {
+    text-align: center;
+    a {
+      padding: 10px 10px;
+      &:hover {
+        color: black;
+        background-color: white;
+      }
+    }
+  }
+  @media only screen and (max-width:640px) {
+      padding-bottom: 4em;
+  }
+}
 
 #nav {
 
     margin: 13px 0 0 0;
 
-
     ul li {
-        display: inline;
-        // margin: 0 20px 0 0;
-        margin-bottom: 130px;
+      list-style: none;
+      margin: 0 20px 0 0;
     }
 
     a {
@@ -133,7 +193,8 @@ img {
     }
 
     a:hover {
-        color : $title-hover-color;
+      font-weight: normal;
+      color : $title-hover-color;
     }
 
 
@@ -145,7 +206,7 @@ img {
     }
 
     li a {
-        padding: 0 5px 10px 0;
+        padding: 0 5px 5px 0;
         text-decoration: none;
         -moz-transition: 0.2s ease-in;
         -webkit-transition: 0.2s ease-in;
@@ -177,13 +238,12 @@ img {
     }
 }
 
-#projects, .project-container, .resume-container {
+.project-container, .resume-container {
     padding-top: 5em;
 }
 
-#term-container {
-    width: 100%;
-    background: #000;
+#term-container, #term {
+    height: 50vh;
 }
 
 .main {
@@ -192,15 +252,100 @@ img {
 }
 
 p.projectTitle {
-    line-height: 1em;
-    font-size: 1.2em;
+    // line-height: 1em;
+    font-size: 2em;
 }
 
+.tall {
+  height : 100%;
+  @media only screen and (max-width:640px) {
+      height:auto;
+  }
+}
+
+.home {
+  overflow: hidden;
+}
+.cover {
+    background-color: $background-color ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    .thumbnail {
+        -webkit-transition: opacity 500ms linear;
+        transition: opacity 500ms linear;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        display: block;
+        background-size: cover;
+        background-position: center;
+      }
+}
+
+#projects {
+  .nav-projects-mask {
+    z-index: 501;
+    position: absolute;
+    top: 10%;
+    height: auto;
+    bottom: 5%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    width:110%;
+
+    @media only screen and (max-width:640px) {
+      position: relative;
+    }
+
+  }
+
+  li {
+    list-style: none;
+    font-size: 26pt;
+    @media only screen and (max-width:640px) {
+        font-size: 20pt;
+    }
+    text-decoration: none;
+    // float: left;
+    // clear: left;
+  }
+
+  a {
+    color: $text-color;
+    display: inline-block!important;
+    white-space: nowrap;
+    padding: .325rem .75rem;
+    letter-spacing: .02em;
+    font-weight: normal;
+
+    &:hover {
+      background-color: #000;
+      color : white;
+    }
+  }
+}
+
+
 .tile {
+    margin: 0 auto;
     p.projectTitle {
         padding-bottom: 1em;
         margin-bottom: 1em;
         border-bottom : 1px solid #AAA;
+    }
+    img {
+      width: 100%;
+      height: 150px;
     }
 }
 
@@ -224,20 +369,65 @@ p.projectTitle {
     .project-content{
         padding : 1em
     }
-
 }
 
+// Upper photo
+.hero {
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: #FFF;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 100%;
+  margin-bottom: 3.75rem;
+  @media only screen and (max-width:640px) {
+    height: 30%;
+  }
+}
 
+// Page layout
+.page {
+  min-height: 70vh;
+  .title {
+    margin: 1.25em 0;
+  }
+}
+
+// Single project layout
 #project {
 
     padding : 0 3em 0 0;
+    margin-bottom : 3.5rem;
 
-    .projectTitle {
-        text-align: center;
+    .project-desc {
+      font-size: 1.2em;
+      line-height: 1.3em;
     }
-    a {
-        font-weight: bold;
+
+    #project-header {
+      min-height: 5em;
+      margin-bottom: 2.5rem;
     }
+
+    p {
+      margin-bottom: 2.25rem;
+    }
+
+    h2.title {
+      margin: 0;
+    }
+
+    // a {
+    //     font-weight: bold;
+    // }
+}
+
+// Writings page
+#writings {
+  li {
+    list-style: none;
+  }
 }
 
 .video {
@@ -266,4 +456,30 @@ p.projectTitle {
     p {
 
     }
+}
+
+.stop-scrolling {
+    height: 100%;
+    position: fixed;
+    @media screen and (max-width: $break-small) {
+      position: relative;
+    }
+
+}
+
+
+#about {
+  ul li {
+    line-height: 1em;
+    list-style: none;
+  }
+  .social {
+    text-align: center;
+  }
+
+  .social__item a, .social__item i {
+    background-color: white;
+    color: black;
+  }
+
 }

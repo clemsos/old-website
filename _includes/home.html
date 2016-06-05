@@ -16,7 +16,7 @@
           {%for post in site.projects reversed %}
             {% if post.hide != true %}
               <li>
-                <a href="{{post.url}}" data-id="{{ forloop.index }}">{{post.title}}</a>
+                <a href="{{post.url}}" title="{{post.desc}}" data-id="{{ forloop.index }}">{{post.title}}</a>
               </li>
             {% endif %}
           {% endfor %}

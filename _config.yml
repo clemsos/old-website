@@ -4,6 +4,7 @@ relative_permalinks: false
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 exclude:
   - bin
@@ -13,6 +14,7 @@ sass:
 
 description: "Inquiries and experiments about using technologies to produce new forms of writings, spaces and representations."
 
+keywords: "data, visualisation, design, research, China, generative design, network analysis, makers, Shenzhen, topogram, Rhône-Alpes, Lyon, memes, digital writings"
 
 author:
   name: "Clément Renaud"

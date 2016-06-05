@@ -8,13 +8,11 @@ thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
 thumbnail-position: "center top"
 ---
 
-Clément Renaud is a French researcher, artist and writer specialized in network analysis and data visualization.
+Clément Renaud is a French researcher, artist and writer specialized in social network analysis and data visualization. After living in China for several years, he is now based in Lyon, France.
 
+His works evolves from the practice of fine arts, social sciences and creative coding. Fluent in Mandarin Chinese, he has founded several international initiatives related to urban, visual and digital cultures. He holds a doctorate in Management of Information Systems from Telecom ParisTech, EDITE de Paris (ED130, Informatique, Télécommunications et Electronique).
 
-Fluent in Mandarin Chinese, he has lived and worked in China for several years in the fields of social media and urban planning. He holds a doctorate in Management of Information Systems from Telecom ParisTech, EDITE de Paris (ED130, Informatique, Télécommunications et Electronique).
-
-
-Clément Renaud is available for data visualization projects, consulting about innovation in China, exhibitions, speaking engagements, and media inquiries. Please get in touch with him directly through one of the options below.
+He is available for projects, exhibitions, speaking engagements, and media inquiries related to data, visualization, cities, and innovation in China. Please get in touch with him directly through one of the options below.
 
 <br>
 <ul style="text-align:center">  
@@ -42,4 +40,4 @@ Clément Renaud is available for data visualization projects, consulting about i
 
 Read more on [Linkedin](http://fr.linkedin.com/in/clementrenaud), [Github](http://github.com/clemsos) or [Academia](https://telecom-paristech.academia.edu/Cl%C3%A9mentRenaud).
 
-<small>Photo : (cc) Christopher Adams</small>
+<small>Photo : (cc) [Christopher Adams](http://chris.raysend.com)</small>

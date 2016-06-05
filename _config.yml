@@ -11,7 +11,8 @@ exclude:
 sass:
     sass_dir: scss
 
-description: "Clément Renaud is a French researcher, artist and writer specialized in social network analysis and data visualization."
+description: "Inquiries and experiments about using technologies to produce new forms of writings, spaces and representations."
+
 
 author:
   name: "Clément Renaud"

@@ -2,9 +2,11 @@
 {% include header.html %}
 {% include hero.html %}
 <div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
-  <h2 class="title">
-    {{ page.title }}
-  </h2>
-  {{ content }}
+  <div class="row">
+    <h2 class="title">
+      {{ page.title }}
+    </h2>
+    {{ content }}
+  </div>
 </div>
 {% include footer.html %}

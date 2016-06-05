@@ -2,7 +2,7 @@
 title: Houjie Project
 date: 2009-01-01
 place: Wuhan, China
-desc: Documenting the disappearing streets of Wuhan (chengzhongcun)
+desc: Documenting the disappearing streets of Wuhan (chengzhong cun)
 layout: project
 thumbnail: "wall.jpg"
 

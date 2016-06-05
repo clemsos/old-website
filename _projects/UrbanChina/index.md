@@ -1,7 +1,7 @@
 ---
 title: Urban China Magazine
 date: 2011-02-01
-desc: Social media and web strategy for one the most influential publication about urban planning in China.
+desc: Online strategy for one the most influential publication about urban planning in China.
 place:  Shanghai, China
 category: media
 layout: project

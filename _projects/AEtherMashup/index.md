@@ -2,12 +2,13 @@
 title: Aether Mashup
 date: 2013-01-01
 place: Beijing, China
-desc: A portable surveillance device that monitor and display wifi activity in real-time.
+desc: A portable surveillance device that monitors and displays wifi activity in real-time.
 layout:  project
 thumbnail: "thumb.jpg"
-
 ---
+
 Aether Mashup is an interactive installation that explores ongoing digital exchanges and activities on a given geographical area. During a one-month residency program in the art village of Caochangdi (near Beijing),
+
 we created a portable device that turns wifi conversations into streams of images and sounds within a specific perimeter.
 
 ![](map.JPG)

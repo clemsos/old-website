@@ -2,12 +2,11 @@
 title: Humble Stories
 date: 2008-01-01
 place: Songzhuang, China
-desc: Geoweb in an art village
+desc: Visualizing activities in the art village of Songzhuang, China.
 layout: project
 thumbnail: "page4.jpg"
-
-
 ---
+
 Humble Stories was an attempt to understand better small facts and feelings that make people’s everyday life in remote urban areas. Created during the Spring 2009, Humbles Stories collected pictures, sounds and words from different locations of the suburbian art village of Songzhuang (宋庄) near Beijing, China.
 
 

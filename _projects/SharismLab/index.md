@@ -2,7 +2,7 @@
 title: Sharism Lab
 date: 2009-01-01
 place: Hong Kong
-desc: Community and experiments for data visualization pionneers in mainland China.
+desc: "Pioneer experiment for the data visualization community in mainland China."
 layout: project
 thumbnail: "seuron.png"
 link: http://sharismlab.com

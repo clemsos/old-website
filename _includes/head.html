@@ -38,6 +38,9 @@ Thanks to node, Metalsmith, d3js and jQuery.
   <meta name="author" content="Clément Renaud">
   <link rel="author" href="https://plus.google.com/+clementrenaud"/>
   <meta name="keywords" content="{{ site.keywords }}, {{ page.title}}" />
+  {% if page.thumbnail %}
+    <meta property="og:image" content="{{ page.thumbnail }}" />
+  {% endif %}
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

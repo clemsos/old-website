@@ -1,3 +1,4 @@
+url: "http://clementrenaud.com"
 permalink: /:path
 baseurl: ""
 relative_permalinks: false

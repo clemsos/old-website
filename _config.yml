@@ -12,7 +12,7 @@ exclude:
 sass:
     sass_dir: scss
 
-description: "Investigates how technologies can be used to create new forms of writings, spaces and representations."
+description: "Clément Renaud investigates how technologies can be used to create new forms of writings, spaces and representations."
 
 keywords: "data, visualisation, design, research, China, generative design, network analysis, makers, Shenzhen, topogram, Rhône-Alpes, Lyon, memes, digital writings"
 

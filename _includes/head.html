@@ -22,7 +22,10 @@ Thanks to node, Metalsmith, d3js and jQuery.
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ site.author.name }}</title>
+  <title>
+    {{ site.author.name }}
+    {% if page.title %} | {{page.title}} {% endif %}
+  </title>
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="Clément Renaud">
 

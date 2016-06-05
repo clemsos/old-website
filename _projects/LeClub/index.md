@@ -2,7 +2,7 @@
 title: Le Club
 date: 2014-01-01
 place: Lyon, France
-desc: Collective for experimentations with technology projects
+desc: Collective of artists and designers for experimentations with technology projects
 layout: project
 link: http://leclub.io
 thumbnail: bg.gif

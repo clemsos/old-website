@@ -2,7 +2,7 @@
 title: Protocultural
 date: 2015-11-01
 place: World
-desc: 1-day launchpad events to support emerging initiatives in digital arts and media
+desc: "a set of 1-day launchpad events to support emerging initiatives in digital arts and media worldwide"
 layout: project
 thumbnail: "newpalmyra.jpg"
 link: http://protocultural.org

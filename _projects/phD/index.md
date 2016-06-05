@@ -2,7 +2,7 @@
 title: Internet Memes on Sina Weibo
 date: 2014-11-01
 place: Paris, France
-desc: phD research about visualization of memes on the Chinese social network Sina Weibo
+desc: "phD research about visualization of memes on the Chinese social network Sina Weibo"
 thumbnail: "thumb_chinese-internet-meme-aircraft-carrier-style-gif-07.gif"
 link: "thesis.pdf"
 layout: project

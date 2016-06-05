@@ -2,7 +2,7 @@
 title: Jue.so
 date: 2011-04-01
 place: Shanghai, China
-desc: Crowdfunding platform for Chinese artists and designers
+desc: Crowdfunding platform and portfolio for Chinese artists and designers
 layout: project
 thumbnail: "0120130320125306846.jpg"
 link: http://jue.so

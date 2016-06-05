@@ -2,7 +2,7 @@
 title: Emotional China
 date: 2012-01-01
 place: Beijing, China
-desc: Sentiment analysis in Chinese language
+desc: Visualizing sentiment analysis in Chinese language
 layout: project
 thumbnail: "full-matrix.png"
 ---

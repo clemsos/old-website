@@ -2,7 +2,7 @@
 title: Maker Cities in China  
 date: 2015-01-01
 place: Shenzhen, China
-desc: "A 2-year postdoc research to investigate the emergence of new urban models for innovation in China"
+desc: "A 2-year postdoc inquiry about the emergence of new urban models for innovation and open-source in China"
 category: research
 link: http://opimpuc.hypotheses.org
 layout: project

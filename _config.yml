@@ -13,7 +13,7 @@ exclude:
 sass:
     sass_dir: scss
 
-description: "Inquiries and experiments about using technologies to produce new forms of writings, spaces and representations."
+description: "Investigates how technologies can be used to create new forms of writings, spaces and representations."
 
 keywords: "data, visualisation, design, research, China, generative design, network analysis, makers, Shenzhen, topogram, Rhône-Alpes, Lyon, memes, digital writings"
 

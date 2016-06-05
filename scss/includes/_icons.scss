@@ -110,6 +110,9 @@ $icon-list: (
 .home .social {
   text-align: left;
   font-size: .5em;
+  @media only screen and (max-width:640px) {
+    font-size: .8em;
+  }
   a {
     width :1em;
     height: 1em;

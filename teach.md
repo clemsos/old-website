@@ -9,7 +9,7 @@ id: teachings
 ### Talks
 
 * (2016) *Codes, réseaux, et photos de chats... Quel avenir pour les écritures visuelles ?*, ETIC Blois - [link](/workshops/MemeWriting)
-* (2016) *Bandits brought technology to this world*, for The Pirate Book launch at Transmediale, Berlin
+* (2016) *Bandits brought technology to this world*, for The Pirate Book launch at Transmediale, Berlin - [link](https://2016.transmediale.de/content/book-launch-the-pirate-book-by-nicolas-maigret-and-maria-roszkowska)
 * (2014) *Shanghai : the creation of a culture of innovation*, journées Mines-Telecom au Forum des Interconnectés, Lyon.
 * (2013) *Les réseaux sociaux en Chine*, at la Cuisine du Web
 * (2013) *Rewiring code and space* - Anti Tectonics Forum in 751 Art District, Beijing. Beijing Design Week. [link](http://www.slideshare.net/slideshow/embed_code/27285399)

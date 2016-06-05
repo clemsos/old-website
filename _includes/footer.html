@@ -30,7 +30,7 @@
           $(window).scroll(function(e) {
             var window_top = $(window).scrollTop();
             var div_top = $('#sticky-anchor').offset().top - 200;
-            if (window_top > 25 && window_top - div_top < 50) {
+            if (window_top > 150 && window_top - div_top < 50) {
               $('#branding').fadeOut(250);
             } else {
                 $('#branding').fadeIn(250);

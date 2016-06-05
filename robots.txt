@@ -6,5 +6,5 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /projects/ARC5
 Sitemap: {{ site.url }}/sitemap.xml

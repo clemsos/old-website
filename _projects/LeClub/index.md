@@ -13,6 +13,6 @@ thumbnail: bg.gif
 <iframe src="./demo.html" allowFullScreen="true" quality="high" width="100%" height="550px" align="middle" allowScriptAccess="always" frameborder="0"></iframe>
 
 <br>
-We also host the local chapter of the [Processing](http://processing.org) community and works with Open Frameworks, d3.js, Arduino, Python and any cool tech we can get our hands on. Join us on [Github](http://github.com/leclub), [Twitter](http://twitter.com/__leclub) or on our [website](http://leclub.github.io/).
+We also host the local chapter of the [Processing](http://processing.org) community and works with Open Frameworks, d3.js, Arduino, Python and any cool tech we can get our hands on. Join us on [Github](http://github.com/leclub), [Twitter](http://twitter.com/__leclub) or on our [website](http://leclub.io/).
 
 ![](processingLyon.png)

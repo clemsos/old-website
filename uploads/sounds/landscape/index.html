@@ -2,8 +2,19 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Musical Landscape</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon"  type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQAAVzABAEAjBQAaDwYAWjUGAGE6CQBrQQ0ATS8PAFhAJwBUQC8AbFI6AHVXPACBZk4A4NrWAPb19QAAAAAAAMmZmZmZmgAJIwAAAAAAcMIjPjA+PjAKpxIuMDMzMAm0Ii4zMzMACaIiLt3dMAAJtyIuIzPQAAm0Un5yM+IzKLRkfncy4iIotRF+dyLkIiq0QX53F+EiGrQUTkd34iIatEVu7u5iIVrBVVRBRFRVbAtGZGZla2uwAMu7u7u8vADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA" />
 	<meta name="Generator" content="Processing" />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
 	<!-- - - - - - - - - - - - - - - - - - - - -
 	+
 	+    Wondering how this works?
@@ -13,6 +24,7 @@
 	+
 	+ - - - - - - - - - - - - - - - - - - - - -->
 	<style type="text/css">
+
 	body {
 		background-color: #333;
 		color: #bbb; line-height: normal;
@@ -52,6 +64,21 @@
 		border-right: 1px solid #333; border-bottom: 1px solid #333;
 		/*background-color: #fff;*/
 	}
+
+	@media (max-width: 800px) {
+		#content, #desc, #landscape {
+			width: 100%;
+			float : none;
+			padding: 0;
+		}
+		#desc  {
+			padding : 15px
+		}
+	}
+
+
+
+
 	</style>
 	<!--[if lt IE 9]>
 	<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>

@@ -73,7 +73,7 @@ name: questionnaire
 
 __
 
-## Voir <a href="http://localhost/Dev/arc5/reponsesBrut/" target="_blank">tous les résultats</a>
+## Voir <a href="http://clementrenaud.com/uploads/arc5/questionnaires/" target="_blank">tous les résultats</a>
 __
 ]
 

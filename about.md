@@ -8,11 +8,11 @@ thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
 thumbnail-position: "center top"
 ---
 
-Clément Renaud is a French researcher, artist and writer specialized in social network analysis and data visualization. After living in China for several years, he is now based in Lyon, France.
+Clément Renaud is a French researcher and artist investigating how technologies can be used to create new forms of writings, spaces and representations.
 
-His works evolves from the practice of fine arts, social sciences and creative coding. Fluent in Mandarin Chinese, he has founded several international initiatives related to urban, visual and digital cultures. He holds a doctorate in Management of Information Systems from Telecom ParisTech, EDITE de Paris (ED130, Informatique, Télécommunications et Electronique).
+His works stands at the crossroads of the anthropology of technologies and the practice of data visualization. Fluent in Mandarin Chinese, he has founded several international initiatives related to digital and free cultures. He is currently researcher at Ecole Polytechnique Fédérale de Lausanne (EPFL) in Lausanne, Switzerland and lives in Lyon, France.
 
-He is available for projects, exhibitions, speaking engagements, and media inquiries related to data, visualization, cities, and innovation in China. Please get in touch with him directly through one of the options below.
+He is available for projects, exhibitions, speaking engagements, and media inquiries related to data visualization and innovation in China. Please get in touch with him directly through one of the options below.
 
 <br>
 <ul style="text-align:center">  
@@ -29,7 +29,7 @@ He is available for projects, exhibitions, speaking engagements, and media inqui
 + Qualified assistant professor in [CNRS section 39 (Geography)](http://www.cnrs.fr/comitenational/sections/section.php?sec=39)
 + Developer at [Fabricatorz, Inc.](http://fabricatorz.com)
 + Owner at [Clément Renaud](http://clementrenaud.com)
-+ Co-founder at [Le Club](http://leclub.io)
++ Co-founder at [Made Out](http://madeout.net)
 
 **EDUCATION**
 

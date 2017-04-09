@@ -1,6 +1,7 @@
 ---
 layout: slides
 hide: true
+date: 2016-04-07 
 whitelabel : "/uploads/arc5/logo-arc5-rvb.jpg"
 ---
 <div markdown="0">

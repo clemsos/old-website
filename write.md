@@ -17,7 +17,7 @@ id: writings
 
 * Renaud (2016). Méthodologies d’analyse et de visualisation de la circulation des mèmes Internet. In *Les Mèmes Langagiers*, Revue Française de Linguistique pp. 1–25, Paris, France. [link](/uploads/papers/Preprint_TravauxLinguistique.pdf)
 * Renaud, Puel & Fernandez (2016). Topogrammes : les mèmes Internet ont-ils un mode de propagation
-spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/papers/Preprint_Reseaux_Topogrammes_Final.pdf)
+spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/papers/ArticleReseaux_Topogrammes_Final.pdf)
 * Renaud C., Bahde G., Topogramme, un outil collaboratif de cartographie et de visualisation spatio-temporelle des réseaux, *Mappemonde* (2015)
 
 ### Academic Conferences

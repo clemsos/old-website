@@ -15,6 +15,7 @@ id: writings
 
 ### Peer-Reviewed Journal Articles and Book Chapters
 
+* Fernandez, Puel & Renaud (2016). The Open Innovation Paradigm: from Outsourcing to Open-sourcing in Shenzhen, China. International Review for Spatial Planning and Sustainable Development 4, 27–41 .
 * Renaud (2016). Méthodologies d’analyse et de visualisation de la circulation des mèmes Internet. In *Les Mèmes Langagiers*, Revue Française de Linguistique pp. 1–25, Paris, France. [link](/uploads/papers/Preprint_TravauxLinguistique.pdf)
 * Renaud, Puel & Fernandez (2016). Topogrammes : les mèmes Internet ont-ils un mode de propagation
 spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/papers/ArticleReseaux_Topogrammes_Final.pdf)

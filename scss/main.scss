@@ -416,6 +416,9 @@ p.projectTitle {
     h2.title {
       margin: 0;
     }
+    @media screen and (max-width: $break-small) {
+      padding : 0 20px;
+    }
 
     // a {
     //     font-weight: bold;

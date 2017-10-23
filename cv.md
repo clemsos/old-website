@@ -9,10 +9,11 @@ Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzer
 2016 - 2017 **LIRIS, INSA/CNRS**, France. Post-doctoral researcher
 Research in computer science about advanced techniques for data visualization.
 
+2016 **CNU Section 23**, France. Qualification for the grade of Assistant Professor of Geography - *Géographie physique, humaine, économique et régionale*
+
 2014 – 2015 **Telecom ParisTech**, Paris Postdoctoral Researcher Coordination of fieldwork in China for the project *Open Innovation Models in Urban China* (OPIMPUC) funded by the French Research Agency (ANR). Leading the research team to visit places & interview key players of the current transition from traditional manufacturing to social and technological innovation in Shanghai, Shenzhen and Nanjing.
 
-2012 – 2014 **Ph.D. Telecom ParisTech**, Doctor of Philosophy in Information Systems (Management) Design of a data visualisation
-toolkit – The case of Internet memes on the Chinese social network Sina Weibo [http://clementrenaud.com/phD](http://clementrenaud.com/projects/phD)
+2012 – 2014 **Telecom ParisTech (Ph.D.)**, *Design of a data visualisation toolkit – The case of Internet memes on the Chinese social network Sina Weibo* - "We develop a data mining and visualisation toolkit to study how the information is shared on online social network services. This software allows to observe relationships between conversational, semantical, temporal and geographical dimensions of online communication acts." Doctor of Philosophy in Information Systems (Management)  [http://clementrenaud.com/phD](http://clementrenaud.com/projects/phD)
 
 2011 – 2014 **Sharism Lab**, Hong Kong Cofounder/ Research Lead. Founded with members of the Chinese Blogger Conference and Wikipedia China, *Sharism Lab* was a research initiative that uses social networks analytics to understand the role of the Chinese Internet in the global economics of information sharing. http://sharismlab.org
 
@@ -24,7 +25,7 @@ toolkit – The case of Internet memes on the Chinese social network Sina Weibo 
 * Renaud (2016). Méthodologies d’analyse et de visualisation de la circulation des mèmes Internet. In *Les Mèmes Langagiers*, Revue Française de Linguistique pp. 1–25, Paris, France. [link](/uploads/papers/Preprint_TravauxLinguistique.pdf)
 * Renaud, Puel & Fernandez (2016). Topogrammes : les mèmes Internet ont-ils un mode de propagation
 spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/papers/Preprint_Reseaux_Topogrammes_Final.pdf)
-* Renaud C., Bahde G., (2015) Topogram, un outil collaboratif de cartographie et de visualisation spatio-temporelle des réseaux, *Mappemonde* 
+* Renaud C., Bahde G., (2015) Topogram, un outil collaboratif de cartographie et de visualisation spatio-temporelle des réseaux, *Mappemonde*
 
 #### Academic Conferences
 
@@ -218,7 +219,6 @@ years full-time position)
 * **Graphics** : Illustrator, InDesign, Photoshop, GIMP, Inkscape, etc.
 * **Web** : JS/Node, Python(Flask, Fabric), LUA/Haskell, etc.
 * **System Admin** : Bash, Docker, Ansible, Fabric (Python)
-
 
 ## Contact Infos
 

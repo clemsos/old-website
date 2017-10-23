@@ -59,6 +59,24 @@
     max-width: 100%;
   }
 
+  @media print {
+    body {
+      margin: 75pt 0;
+    }
+      #viz {
+        display: block;
+      }
+      #viz h3 {
+        text-align: left;
+      }
+      #viz .viz-item {
+        width: 100%
+      }
+      img {
+        display: none
+      }
+  }
+
 
 </style>
 

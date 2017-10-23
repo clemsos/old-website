@@ -1,0 +1,80 @@
+{% include head.html %}
+<style>
+
+  body {
+    font-size:12pt;
+    color: #222;
+  }
+
+  h1, h2, h3, h4 { text-align: center;}
+
+  h1 {
+    margin: .2em 0;
+  }
+
+  h2 {
+    font-size:2.7rem;
+    margin: 3em auto 2em auto;
+    padding-bottom : .7em;
+    width: 40%;
+    border-bottom:1px solid #CCC;
+  }
+
+  h3 {
+    font-size:2.1rem;
+    margin: .2em 0;
+  }
+
+  hr {
+    margin-top: 2em;
+    width: 50%;
+    display :none;
+  }
+
+  .header {
+    margin : 4.5em 0 4em 0;
+  }
+
+  .header p {
+    text-align: center;
+  }
+
+  #main {
+    margin-bottom: 4em;
+  }
+
+  #viz {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #viz .viz-item {
+    width: 40%;
+    display: block;
+    flex-direction: column;
+  }
+
+  #viz img {
+    max-width: 100%;
+  }
+
+
+</style>
+
+<div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
+  <div class="header">
+    <h1>Clément Renaud</h1>
+    <h3>Researcher, Artist & Developer</h3>
+    <p>
+      Born in 1983. Married. Lives in Lyon, France
+      <br />
+      <a href="mailto:clement.renaud@gmail.com">contact@clementrenaud.com</a>
+      <br />
+    </p>
+
+  </div>
+  <div class="row" id="main">
+    {{ content }}
+  </div>
+</div>

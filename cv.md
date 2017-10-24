@@ -125,8 +125,7 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
   year="2008"
   img="HumbleStories.jpg"
   description="Creation and development of Humble Stories.com, an experimental social geo-localized network using data
-  visualization and 2D barcode data collection to relate the daily life in the artistic village of Songzhuang in
-  Beijng, China. Dataviz UX/UI (Flash), script/db (PHP/MySQL), geo-localization, 2D barcode integration."
+  visualization and 2D barcode data collection to relate the daily life in the artistic village of Songzhuang in Beijng, China."
 %}
 
 </div>

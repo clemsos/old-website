@@ -222,6 +222,16 @@ years full-time position)
 * Renaud (2009) Réactions en Chine à la vidéo anti-Sarkozy : un internaute témoigne, *rue89.com*, 08/01/2009
 [link](http://rue89.nouvelobs.com/chinatown/2009/01/08/reactions-en-chine-a-la-video-anti-sarkozy-un-internaute-temoigne-82720)
 
+## Education
+
+* 2012 - 2014 :  Doctor of Philosophy (Ph.D.) in Management & Information Systems, General - Telecom ParisTech.
+* 2007 - 2008 : M2 Pro - Création et édition numérique - Université Vincennes-Saint-Denis (Paris VIII)
+* 2006 - 2007 : M1 Research - Medias & Communication - Université Michel de Montaigne (Bordeaux 3)
+* 2005 - 2006 : Licence - Communication - Université de Montréal
+* 2003 - 2005 : L1/L2 - Cultural Mediation & Communication - Université Nancy 2
+* 2002 - 2003 : Journalism - CNED (France) National Center of Distance Education
+* 2001 - 2002 : Fine Arts (First year) - Ecole Supérieure de l'Image, Poitiers
+
 ## Languages
 
 * French : Native, Published works

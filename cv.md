@@ -63,6 +63,22 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 
 {%
   include cv_item.html
+  title="Meta Education"
+  year="2016"
+  img="MetaEduc.png"
+  description="*Meta Education* is a dashboard to monitor and visualize the activity of learners using mind mapping software in the classroom [github.com/sical/meta-education](https://github.com/sical/meta-education)"
+%}
+
+{%
+  include cv_item.html
+  title="Cartographie Historique des Universités en Europe"
+  year="2016"
+  img="carto-univ.png"
+  description="Attempt to map spread of universities over Europe during the last centuries. [clementrenaud.com/carto-univ](https://clementrenaud.com/carto-univ)"
+%}
+
+{%
+  include cv_item.html
   title="Junkware"
   year="2014"
   img="Junkware-app.png"

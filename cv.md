@@ -4,7 +4,7 @@ layout: cv
 
 <h2>Academia & Research</h2>  
 
-Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies of the [College of Humanities](https://cdh.epfl.ch). Researching about the evolution of urban spaces for making and manufacturing in urban China (network ethnography and data visualisation). Project funded by Swiss National Fund (FNS) - [mapmakers.space/](http://mapmakers.space/)
+Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies of the [College of Humanities](https://cdh.epfl.ch). Mapping the evolution of urban spaces for making and manufacturing in urban China (network ethnography and data visualisation). Project funded by Swiss National Fund (FNS) - [mapmakers.space/](http://mapmakers.space/)
 
 2016 - 2017 **LIRIS, INSA/CNRS**, France. Post-doctoral researcher in IHM at [Situated Interaction, Collaboration, Adaptation and Learning (SICAL)](https://liris.cnrs.fr/equipes?id=73). Research called *Meta Education*  about designing visualization dashboards to monitor the use of mind mapping in the classroom [github.com/sical/meta-education](https://github.com/sical/meta-education)
 
@@ -28,7 +28,8 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 
 #### Academic Conferences
 
-* Renaud C & Bahde G - From Davos to Beijing : the historical trajectory of the concept of sovereignty in Internet territories - 1st conference on Computers Network History, Lugano
+* Renaud C & Bahde G (2017). From Davos to Beijing : the historical trajectory of the concept of sovereignty in Internet territories - 1st conference on Computers Network History, Lugano
+* Carrillo R., Renaud C., Prié Y. and Lavoué E. - Tableau de bord pour le suivi de l'engagement des apprenants lors de la construction de cartes mentales. In *EIAH 2017*, Strasbourg.
 * Renaud (2016). Topogram: a web-based toolkit for spatiotemporal network analysis of online activities. In *Netspring Lyon 2016*, Lyon - [link](/uploads/papers/Topogram-NetspringLyon2016.pdf)
 * Renaud (2016). Topogram, Social Network Analysis for Humans. In *FOSSASIA16*, Singapore.
 * Renaud, Luis (2016). Open Innovation, Closed Business: Grassroots innovation process and places in China. In *GeoInnov 2016 - Geography of Innovation Conference*, pp. 1–25, Toulouse, France.

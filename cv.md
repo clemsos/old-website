@@ -28,7 +28,9 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 
 #### Academic Conferences
 
-* Renaud C & Bahde G (2017). From Davos to Beijing : the historical trajectory of the concept of sovereignty in Internet territories - 1st conference on Computers Network History, Lugano
+* Renaud C & Bahde G (2017). From Davos to Beijing : the historical trajectory of the concept of sovereignty in Internet territories - 1st conference on Computers Network History, Lugano (Switzerland)
+* Renaud C. That’s you here on the map : introducing results to network participants. In RECSNA17 : Recent Ethical Challenges in Social Network Analysis
+5-6 Dec 2017, Paris (France)
 * Carrillo R., Renaud C., Prié Y. and Lavoué E. - Tableau de bord pour le suivi de l'engagement des apprenants lors de la construction de cartes mentales. In *EIAH 2017*, Strasbourg.
 * Renaud (2016). Topogram: a web-based toolkit for spatiotemporal network analysis of online activities. In *Netspring Lyon 2016*, Lyon - [link](/uploads/papers/Topogram-NetspringLyon2016.pdf)
 * Renaud (2016). Topogram, Social Network Analysis for Humans. In *FOSSASIA16*, Singapore.

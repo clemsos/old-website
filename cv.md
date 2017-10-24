@@ -4,10 +4,9 @@ layout: cv
 
 <h2>Academia & Research</h2>  
 
-Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies. Researching about network ethnography and makerspaces in China
+Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies of the [College of Humanities](https://cdh.epfl.ch). Researching about the evolution of urban spaces for making and manufacturing in urban China (network ethnography and data visualisation). Project funded by Swiss National Fund (FNS) - [mapmakers.space/](http://mapmakers.space/)
 
-2016 - 2017 **LIRIS, INSA/CNRS**, France. Post-doctoral researcher
-Research in computer science about advanced techniques for data visualization.
+2016 - 2017 **LIRIS, INSA/CNRS**, France. Post-doctoral researcher in IHM at [Situated Interaction, Collaboration, Adaptation and Learning (SICAL)](https://liris.cnrs.fr/equipes?id=73). Research called *Meta Education*  about designing visualization dashboards to monitor the use of mind mapping in the classroom [github.com/sical/meta-education](https://github.com/sical/meta-education)
 
 2016 **CNU Section 23**, France. Qualification for the grade of Assistant Professor of Geography - *Géographie physique, humaine, économique et régionale*
 

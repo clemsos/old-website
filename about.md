@@ -8,7 +8,7 @@ thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
 thumbnail-position: "center top"
 ---
 
-Clément Renaud investigates how technologies can be used to create new spaces and organisations across the globe. His current work spans anthropology, geography, art, design and coding. He is pursuing research at the Institute for Area and Global Studies at EPFL (Switzerland) and developing products in Shenzhen (China). 
+Clément Renaud investigates how technologies can be used to create new spaces and organisations across the globe. His work spans anthropology, geography, art, design, product development and coding. He currently pursue research at the Institute for Area and Global Studies at EPFL (Switzerland) and in Shenzhen (China).
 
 Fluent in Mandarin Chinese and specialist of data visualization, he has founded several international initiatives related to digital and free cultures. 
 

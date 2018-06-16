@@ -8,11 +8,11 @@ thumbnail: "/uploads/ClementRenaud_by_ChrisAdams.jpg"
 thumbnail-position: "center top"
 ---
 
-Clément Renaud is a French researcher and artist investigating how technologies can be used to create new forms of writings, spaces and representations.
+Clément Renaud investigates how technologies can be used to create new spaces and organisations across the globe. His current work spans anthropology, geography, art, design and coding. He is pursuing research at the Institute for Area and Global Studies at EPFL (Switzerland) and developing products in Shenzhen (China). 
 
-His works stands at the crossroads of the anthropology of technologies and the practice of data visualization. Fluent in Mandarin Chinese, he has founded several international initiatives related to digital and free cultures. He is currently researcher at Ecole Polytechnique Fédérale de Lausanne (EPFL) in Lausanne, Switzerland and lives in Lyon, France.
+Fluent in Mandarin Chinese and specialist of data visualization, he has founded several international initiatives related to digital and free cultures. 
 
-He is available for projects, exhibitions, speaking engagements, and media inquiries related to data visualization and innovation in China. Please get in touch with him directly through one of the options below.
+He is available for projects, exhibitions, speaking engagements, and media inquiries. Please get in touch with him directly through one of the options below.
 
 <br>
 <ul style="text-align:center">  
@@ -24,12 +24,13 @@ He is available for projects, exhibitions, speaking engagements, and media inqui
 
 **AFFILIATIONS**
 
++ Associate researcher at the [Institute for Complex Systems (IXXI)](http://www.ixxi.fr)
 + Associate researcher at the [Paris i3 (Interdisciplinary Institute of Innovation)](http://www.i-3.fr/?lang=en)
 + Associate researcher at [Centre Norbert Elias (EHESS)](http://centre-norbert-elias.ehess.fr/)
 + Qualified assistant professor in [CNRS section 39 (Geography)](http://www.cnrs.fr/comitenational/sections/section.php?sec=39)
 + Developer at [Fabricatorz, Inc.](http://fabricatorz.com)
 + Owner at [Clément Renaud](http://clementrenaud.com)
-+ Co-founder at [Made Out](http://madeout.net)
+
 
 **EDUCATION**
 

@@ -18,7 +18,7 @@ Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzer
 
 #### Peer-Reviewed Journal Articles
 
-* Maigret,Roszkowska, and Renaud. “Shanzhai Archeology.”, 2017. INMATERIAL. Diseño, Arte y Sociedad 2, no. 4. https://www.inmaterialdesign.com/index.php/mag/article/view/43.
+* Maigret,Roszkowska, and Renaud. “Shanzhai Archeology.”, 2017. INMATERIAL. Diseño, Arte y Sociedad 2, no. 4 - [link](https://www.inmaterialdesign.com/index.php/mag/article/view/43)
 * Renaud (2017) Technologies de lecture et d'écriture des faits sociaux: Un retour d’expérience sur l’usage de données pour l’étude de l’Internet en Chine - Sociologie et Sociétés (to be published)
 * Renaud (2017) L’assemblage comme forme d’innovation - La fabrication d’un selfie stick à Shenzhen. Techniques & Cultures, n°67. EHESS
 * Fernandez, V., Puel, G., Renaud, C., 2016. The Open Innovation Paradigm: from Outsourcing to Open-sourcing in Shenzhen, China. International Review for Spatial Planning and Sustainable Development 4, 27–41. doi:10.14246/irspsd.4.4_27
@@ -27,11 +27,12 @@ Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzer
 spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/papers/Preprint_Reseaux_Topogrammes_Final.pdf)
 * Renaud C., Bahde G., (2015) Topogram, un outil collaboratif de cartographie et de visualisation spatio-temporelle des réseaux, *Mappemonde*
 
-#### Academic Conferences
+#### Academic Conference Papers
 
 * Renaud C & Bahde G (2017). From Davos to Beijing : the historical trajectory of the concept of sovereignty in Internet territories - 1st conference on Computers Network History, Lugano (Switzerland)
-* Renaud C. That’s you here on the map : introducing results to network participants. In RECSNA17 : Recent Ethical Challenges in Social Network Analysis
-5-6 Dec 2017, Paris (France)
+* Renaud, Clément, Monique Bolli, Marc Laperrouza, and Florence Graezer Bideau. “Making the City: Re-Assembling Spaces of Manufacturing,” 2017.
+* Renaud C. That’s you here on the map : introducing results to network participants. In RECSNA17 : Recent Ethical Challenges in Social Network Analysis - 5-6 Dec 2017, Paris (France)
+* Carrillo, Rubiela, Clément Renaud, Yannick Prié, and Élise Lavoué. “Dashboard for Monitoring Student Engagement in Mind Mapping Activities.” In Advanced Learning Technologies (ICALT), 2017 IEEE 17th International Conference On, 433–437. IEEE, 2017.
 * Carrillo R., Renaud C., Prié Y. and Lavoué E. - Tableau de bord pour le suivi de l'engagement des apprenants lors de la construction de cartes mentales. In *EIAH 2017*, Strasbourg.
 * Renaud (2016). Topogram: a web-based toolkit for spatiotemporal network analysis of online activities. In *Netspring Lyon 2016*, Lyon - [link](/uploads/papers/Topogram-NetspringLyon2016.pdf)
 * Renaud (2016). Topogram, Social Network Analysis for Humans. In *FOSSASIA16*, Singapore.

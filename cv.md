@@ -4,7 +4,7 @@ layout: cv
 
 <h2>Academia & Research</h2>  
 
-Mar 2018 – NOW **IXXI (Institute for Complex Systems)**, France. Research collaborator on data visualization. IXXI is a multi-disciplinary research center located at ENS de Lyon which promotes research at the crossroads of different disciplines (social, life and earth sciences) to address contemporary challenges such as climate change, socio-economical reorganizations folllowing digital technologies, etc. Initiation of the [Micro Meso Macro](http://micromesomacro.com) conference and [the Atlas of Data on Earth](http://theatlasofdata.earth).
+Mar 2018 – NOW **IXXI (Institute for Complex Systems)**, France. Research collaborator on data visualization at IXXI, a research center located at ENS de Lyon which promotes multi-disciplinary approaches (social, life and earth sciences) to address contemporary challenges. Work includes the creation of the [Micro Meso Macro](http://micromesomacro.com) conference and [the Atlas of Data on Earth](http://theatlasofdata.earth).
 
 Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies of the [College of Humanities](https://cdh.epfl.ch). Mapping the evolution of urban spaces for making and manufacturing in urban China (network ethnography and data visualisation). Project funded by Swiss National Fund (FNS) - [mapmakers.space/](http://mapmakers.space/)
 

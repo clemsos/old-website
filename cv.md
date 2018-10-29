@@ -18,6 +18,7 @@ Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzer
 
 #### Peer-Reviewed Journal Articles
 
+* Maigret,Roszkowska, and Renaud. “Shanzhai Archeology.”, 2017. INMATERIAL. Diseño, Arte y Sociedad 2, no. 4. https://www.inmaterialdesign.com/index.php/mag/article/view/43.
 * Renaud (2017) Technologies de lecture et d'écriture des faits sociaux: Un retour d’expérience sur l’usage de données pour l’étude de l’Internet en Chine - Sociologie et Sociétés (to be published)
 * Renaud (2017) L’assemblage comme forme d’innovation - La fabrication d’un selfie stick à Shenzhen. Techniques & Cultures, n°67. EHESS
 * Fernandez, V., Puel, G., Renaud, C., 2016. The Open Innovation Paradigm: from Outsourcing to Open-sourcing in Shenzhen, China. International Review for Spatial Planning and Sustainable Development 4, 27–41. doi:10.14246/irspsd.4.4_27
@@ -174,7 +175,7 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 <h2>Teachings</h2>
 
 
-2012-NOW Teaching Data Visualization : Nantes Ecole de de Design, DSAA Media Design (Villefontaine), M2 Université Jean Jaurès (Toulouse), Haute Ecole d'Art et de Design HEAD (Genève), etc.
+2012-NOW Teaching Data Visualization : Nantes Ecole de de Design, DSAA Media Design (Villefontaine), M2 Université Jean Jaurès (Toulouse), Haute Ecole d'Art et de Design HEAD (Genève), EM Lyon, etc.
 
 2012-NOW Université Toulouse 2 *Initiation to Big Data – Case studies,
 data collection and visualization basics* Master2 Research (3 years x
@@ -202,6 +203,7 @@ years full-time position)
 ## Other Writings & Publications
 
 ### Books / Book Sections / Chapters
+
 * *L'Ecriture Exemplaire*, FYP, 2018 (A paraître)
 * *Cost of Freedom, Voices of Free Culture*, Book Sprints, (Pourrières, France) 2015-2016. [link](http://costoffreedom.cc)
 * Bandits Brought Technology To This World in *The Pirate Book*. Aksioma – Institute for Contemporary Art,
@@ -221,6 +223,11 @@ years full-time position)
 * Renaud (2009) Beijing Paoku : Pékin au scalpel, *China Files*, 24-11-2009  [link](http://www.china-files.com/fr/link/4367/%E5%8C%97%E4%BA%AC%E8%B7%91%E9%85%B7-beijing-paoku%C2%A0-pekin-au-scalpel)
 * Renaud (2009) Réactions en Chine à la vidéo anti-Sarkozy : un internaute témoigne, *rue89.com*, 08/01/2009
 [link](http://rue89.nouvelobs.com/chinatown/2009/01/08/reactions-en-chine-a-la-video-anti-sarkozy-un-internaute-temoigne-82720)
+
+### Blogs & Social Media
+
+* Active contributor of [China's Future](https://www.quora.com/profile/Cl%C3%A9ment-Renaud) blog on Quora
+* Writer of several previous research blogs like [Map Makers](http://mapmakers.space) and [Open Newsroom](http://opennewsroom.blogspot.com)
 
 ## Education
 

@@ -4,6 +4,8 @@ layout: cv
 
 <h2>Academia & Research</h2>  
 
+Mar 2018 – NOW **IXXI (Institute for Complex Systems)**, France. Research collaborator on data visualization. IXXI is a multi-disciplinary research center located at ENS de Lyon which promotes research at the crossroads of different disciplines (social, life and earth sciences) to address contemporary challenges such as climate change, socio-economical reorganizations folllowing digital technologies, etc. Initiation of the [Micro Meso Macro](http://micromesomacro.com) conference and [the Atlas of Data on Earth](http://theatlasofdata.earth).
+
 Feb 2017 – NOW **EPFL (École polytechnique fédérale de Lausanne)**, Switzerland. Postdoctoral Researcher at Institute for Area and Global Studies of the [College of Humanities](https://cdh.epfl.ch). Mapping the evolution of urban spaces for making and manufacturing in urban China (network ethnography and data visualisation). Project funded by Swiss National Fund (FNS) - [mapmakers.space/](http://mapmakers.space/)
 
 2016 - 2017 **LIRIS, INSA/CNRS**, France. Post-doctoral researcher in IHM at [Situated Interaction, Collaboration, Adaptation and Learning (SICAL)](https://liris.cnrs.fr/equipes?id=73). Research called *Meta Education*  about designing visualization dashboards to monitor the use of mind mapping in the classroom [github.com/sical/meta-education](https://github.com/sical/meta-education)

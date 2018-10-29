@@ -145,17 +145,21 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 
 #### Exhibitions
 
-* 2017 - *Disnovation*, StereoLux, Nantes
-* 2017 - ** Basel, Switzerland
-* 2017 - *Shanzhai Archeology*, La Haye
-* 2016 - *Disnovaton* Centre d'Art Comtemporain de Genève, Mapping Festival, Genève
-* 2016 - *Shanzhai Archeology*- Bienalle du Design de St Etienne, Cité du Design de St Etienne
-* 2016 - *Archeonauts*, Gallerie Charcot, Paris
-* 2014 - *Junkware* in One Space, Shanghai
-* 2014 - *Junkware* in Shanghai Maker Karnival, Shanghai
-* 2012 - *Aether Mashup* in Smart City Biennale at Chinese Museum Of Digital Arts - Beijing
-* 2012 - *Aether Mashup* in RAWR! at CaoChangdi - Beijing Design Week
-* 2012 - *Aether Mashup* in Mogashan Rd, V-Art Center - Shanghai
+- *Shanzhai Archeology*, Museum L, Louvain-la-Neuve, 2018 (BE)
+- *Shanzhai Archeology*, Solo Exhibition, Watermans Art Center, London 2018 (UK)
+- *Shanzhai Archeology*, Fake, Science gallery, Dublin, 2018 (IR)
+- *Shanzhai Archeology*, Feedback #2, Humboldt-Universität zu Berlin, 2018 (DE)
+- *Shanzhai Archeology*, Stereolux, Nantes, 2017 (FR)
+- *Shanzhai Archeology*, FeedBack #1, West Gallery, The Hague, 2017 (NL)
+- *Shanzhai Archeology*, Kunsthaus Langenthal, 2017 (CH)
+- *Shanzhai Archeology*, Galerie Charlot, Paris, 2017 (FR)
+- *Shanzhai Archeology*, Mapping Festival, Geneva, 2017 (CH)
+- *Shanzhai Archeology*, The Working Promesse, Internationale Design Biennale, Saint-Etienne, 2017 (FR)
+- *Junkware*, One Space, Shanghai, 2014 (CN)
+- *Junkware*, Shanghai Maker Karnival, Shanghai, 2014 (CN)
+- *Aether Mashup* in Smart City Biennale at Chinese Museum Of Digital Arts - Beijing, 2012 (CN)
+- *Aether Mashup* in RAWR! at CaoChangdi - Beijing Design Week - Beijing, 2012 (CN)
+- *Aether Mashup* in Mogashan Rd, V-Art Center - Shanghai, 2012 (CN)
 
 
 <h2>Community Development</h2>

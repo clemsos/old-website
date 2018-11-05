@@ -5,6 +5,7 @@ place: Shenzhen, China
 desc: "Shanzhai Archeology is a collection of original phones from the technological interbreeding Made in China."
 layout:  project
 thumbnail: "shanzhai_nantes_b.jpg"
+link: https://disnovation.org/shanzhai.php
 ---
 
 Shanzhai Archeology is a collection of original phones from the technological interbreeding Made in China. This project casts a critical look at the production of technology through an artistic interpretation of a recent historical fact, still poorly known: the shanzhai.
@@ -38,5 +39,3 @@ CONCEPTION: [DISNOVATION.ORG](https://disnovation.org/shanzhai.php), CLÉMENT RE
 > Positioning this project at the crossroads between art and anthropology, the artists explore the cultural value of shanzhai and the radical otherness of its creative process; an open manufacturing model resulting in singular design solutions outside streamlined market forces and global innovation myths.
 
 *Irini Papadimitriou, London, January 2018*
-
-## Read more at [disnovation.org](https://disnovation.org/shanzhai.php)

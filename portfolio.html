@@ -6,7 +6,7 @@
 <div class="cover">
   {%for post in site.projects reversed %}
     {% if post.hide != true %}
-      <div class="thumbnail" data-id="{{ forloop.index }}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}" style="background-image:url({{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}) {% if post.thumbnail-position %} background-position:{{post.thumbnail-position}} {% endif %}"></div>
+      <div class="thumbnail" data-id="{{ forloop.index }}" data-src="{{ post.url | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}" style="background-image:url({{ post.url | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}) {% if post.thumbnail-position %} background-position:{{post.thumbnail-position}} {% endif %}"></div>
     {% endif %}
   {% endfor %}
 </div>
@@ -18,7 +18,7 @@
           {%for post in site.projects reversed %}
             {% if post.hide != true %}
               <li>
-                <a href="{{post.url}}" title="{{post.desc}}" data-id="{{ forloop.index }}">{{post.title}}</a>
+                <a href="{{post.url | remove: 'index'}}" title="{{post.desc}}" data-id="{{ forloop.index }}">{{post.title}}</a>
               </li>
             {% endif %}
           {% endfor %}

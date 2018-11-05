@@ -91,6 +91,9 @@
 .social__item {
     display: inline-block;
     margin-right: 0.1em;
+    a {
+      border:none
+    }
 }
 
 // Basic icon style
@@ -139,6 +142,10 @@
 .social__container {
   padding: 1em;
   font-size: 1.5em;
+}
+
+.social {
+  margin: 1.5em 0 2em 0;  
 }
 
 .home .social {

@@ -1,0 +1,87 @@
+---
+---
+{% include head.html %}
+{% include header.html %}
+
+<div class="cover">
+  {%for post in site.projects reversed %}
+    {% if post.hide != true %}
+      <div class="thumbnail" data-id="{{ forloop.index }}" data-src="{{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}" style="background-image:url({{ post.url | | remove: 'index' | remove: '.html' }}{{ post.thumbnail }}) {% if post.thumbnail-position %} background-position:{{post.thumbnail-position}} {% endif %}"></div>
+    {% endif %}
+  {% endfor %}
+</div>
+<div class="home container tall">
+  <div class="row">
+    <div id="projects" class="six columns tall">
+      <div class="nav-projects-mask">
+        <ul>
+          {%for post in site.projects reversed %}
+            {% if post.hide != true %}
+              <li>
+                <a href="{{post.url}}" title="{{post.desc}}" data-id="{{ forloop.index }}">{{post.title}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript"   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $( document ).ready(function() {
+    console.log("Hi there, you can get the code from this website on http://github.com/clemsos/clemsos.github.io")
+
+    $('#branding').addClass('sticky');
+    $(window).scroll(function(e) {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#sticky-anchor').offset().top - 200;
+      if (window_top > 150 && window_top - div_top < 50) {
+        $('#branding').fadeOut(250);
+      } else {
+          $('#branding').fadeIn(250);
+      }
+
+    });
+    // console.log("homepage");
+    $("#projects a").hover(function(e){
+      var id = $(this).data("id");
+      // console.log(".thumbnail[data-id='"+id+"']")
+      $(".thumbnail[data-id='"+id+"']").css({
+          "transition-delay": "100ms",
+          "opacity": "1"
+      });
+    }, function(e){
+      var id = $(this).data("id");
+      $(".thumbnail[data-id='"+id+"']").css({
+          "transition-delay": "100ms",
+          "opacity": "0"
+      });
+    })
+
+    // auto scroll
+    $("#projects").mousemove(function (e) {
+
+      // Define size for top and bottom regions
+      var bottomRegionSize = 200;
+      var topRegionSize = 200;
+      var myscroll = $('.nav-projects-mask')
+      var y = e.pageY - $(this).offset().top;
+      var delta = y * 0.02;
+
+      if (y >= myscroll.offset().top && y <= myscroll.offset().top+topRegionSize) {
+          // Move to top
+          myscroll.scrollTop(function(i, v) {
+              return v - delta;
+          });
+      }
+      else if (y >= (myscroll.height() - bottomRegionSize) && y <= myscroll.height()) {
+          //Down
+          myscroll.scrollTop(function(i, v) {
+              return v + delta/3;
+          });
+      }
+    });
+  });
+</script>

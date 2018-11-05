@@ -79,6 +79,9 @@ header#branding {
 
     #main-title {
       width: 100%;
+      a {
+        border: none
+      }
     }
 
     a {
@@ -265,6 +268,10 @@ p.projectTitle {
 
 .home {
   overflow: hidden;
+  a {
+    border: none
+  }
+
 }
 .cover {
     background-color: $background-color ;
@@ -293,6 +300,9 @@ p.projectTitle {
 }
 
 #projects {
+  a {
+    border: none
+  }
   .nav-projects-mask {
     z-index: 501;
     position: absolute;

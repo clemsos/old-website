@@ -2,6 +2,17 @@
 layout: cv
 ---
 
+## Current Affiliations
+
++ Postdoctoral researcher at the [Institute for Area and Global Studies](https://cdh.epfl.ch/fr/recherche/iags/) at [Swiss Institute of Technology (EPFL)](https://epfl.ch)
++ Research Engineer at the [Institute for Complex Systems (IXXI)](http://www.ixxi.fr) at [ENS de Lyon](https://www.ens-lyon.fr)
++ Associate researcher at the [Paris i3 (Interdisciplinary Institute of Innovation)](http://www.i-3.fr/?lang=en)
++ Associate researcher at [Centre Norbert Elias (EHESS)](http://centre-norbert-elias.ehess.fr/)
++ Qualified assistant professor in [CNRS section 39 (Geography)](http://www.cnrs.fr/comitenational/sections/section.php?sec=39)
++ Creative Developer at [Fabricatorz, Inc.](http://fabricatorz.com)
++ Art Collective Member at [Disnovation.org](https://disnovation.org)
++ Owner at [Clément Renaud](http://clementrenaud.com)
+
 <h2>Academia & Research</h2>  
 
 Mar 2018 – NOW **IXXI (Institute for Complex Systems)**, France. Research collaborator on data visualization at IXXI, a research center located at ENS de Lyon which promotes multi-disciplinary approaches (social, life and earth sciences) to address contemporary challenges such as climate change, algorithmic governance, etc. Work includes the creation of the [Micro Meso Macro](http://micromesomacro.com) conference and [the Atlas of Data on Earth](http://theatlasofdata.earth).
@@ -235,6 +246,7 @@ years full-time position)
 
 * Active contributor of [China's Future](https://www.quora.com/profile/Cl%C3%A9ment-Renaud) blog on Quora
 * Writer of several previous research blogs like [Map Makers](http://mapmakers.space) and [Open Newsroom](http://opennewsroom.blogspot.com)
+
 
 ## Education
 

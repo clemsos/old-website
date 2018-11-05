@@ -17,7 +17,7 @@ Clement Renaud is a creative developer researching global technology flows betwe
 
 He is available for projects, exhibitions, speaking engagements, and media inquiries.
 
-Read the [full CV](/cv) or find more on [Linkedin](http://fr.linkedin.com/in/clementrenaud) or [Github](http://github.com/clemsos).
+Read the [full CV](/cv), have a look at the [portfolio](/portfolio) or find more on [Linkedin](http://fr.linkedin.com/in/clementrenaud) or [Github](http://github.com/clemsos).
 
 
 {% include social.html %}

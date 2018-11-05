@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello/fontello.eot?96016386');
-  src: url('../fonts/fontello/fontello.eot?96016386#iefix') format('embedded-opentype'),
-       url('../fonts/fontello/fontello.woff2?96016386') format('woff2'),
-       url('../fonts/fontello/fontello.woff?96016386') format('woff'),
-       url('../fonts/fontello/fontello.ttf?96016386') format('truetype'),
-       url('../fonts/fontello/fontello.svg?96016386#fontello') format('svg');
+  src: url('../fonts/fontello/fontello.eot?46113033');
+  src: url('../fonts/fontello/fontello.eot?46113033#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/fontello.woff2?46113033') format('woff2'),
+       url('../fonts/fontello/fontello.woff?46113033') format('woff'),
+       url('../fonts/fontello/fontello.ttf?46113033') format('truetype'),
+       url('../fonts/fontello/fontello.svg?46113033#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -59,28 +59,10 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-wechat:before { content: '\f1d7'; } /* '' */
+.icon-quora:before { content: '\f2c4'; } /* '' */
 .icon-telegram:before { content: '\f2c6'; } /* '' */
 
-// // Each loop for creating the icon CSS
-// @each $icon, $unicode, $icon-background in $icon-list {
-//
-//     .icon--#{$icon} {
-//         &::before {
-//             content: $unicode;
-//         }
-//     }
-//
-//     .social__icon--#{$icon} {
-//           background-color: black;
-//
-//         &:hover {
-//             // Swap black for white to make the icons lighter on hover
-//             background-color: $icon-background;
-//         }
-//
-//     }
-//
-// }
 
 .social__container {
     a:hover, a:visited {
@@ -109,12 +91,13 @@
     // Better Font Rendering
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    &:hover {
+        // Swap black for white to make the icons lighter on hover
+        color: $link-hover-color;
+    }
 }
 
-// Extend icon to all other icons
-[class^="icon--"] {
-    @extend .icon;
-}
 
 // Icon background
 .social__icon {
@@ -145,24 +128,29 @@
 }
 
 .social {
-  margin: 1.5em 0 2em 0;  
+  margin: 1.5em 0 2em 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  text-align: center;
+
+
+  .wechat {
+    text-align: center;
+  }
+
 }
 
-.home .social {
-  text-align: left;
-  font-size: .5em;
-  @media only screen and (max-width:640px) {
-    font-size: .8em;
-  }
-  a {
-    width :1em;
-    height: 1em;
-    padding-right: .3em;
-    color: $header-link-color;
-    background: none;
-    opacity: .5;
-    &:hover {
-      opacity: 1;
-    }
+.social__item a, .social__item i {
+  background-color: white;
+  color: black;
+}
+
+.wechat {
+  text-align: center;
+  img {
+    vertical-align:middle
   }
 }

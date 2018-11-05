@@ -1,25 +1,62 @@
-<div class="social">
-  <div class="social__item">
-          <a target="_blank" title="Twitter" href="https://twitter.com/clemsos" class="social__icon--twitter">
-            <i class="icon-twitter"></i>
-          </a>
-  </div>
-  <div class="social__item">
-          <a target="_blank" title="Github" href="http://github.com/clemsos" class="social__icon--github">
-            <i class="icon-github-circled"></i>
-          </a>
-  </div>
-  <div class="social__item">
-          <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/clementrenaud" class="social__icon--linkedin">
-            <i class="icon-linkedin"></i>
-          </a>
-  </div>
-  <div class="social__item">
-          <a target="_blank" title="Linkedin" href="https://t.me/clemsos" class="social__icon--linkedin">
-            <i class="icon-telegram"></i>
-          </a>
-  </div>
-  <div class="social__item">
-          <a target="_blank" title="E-mail" href="mailto:hi@clementrenaud.com" class="social__icon--mail"><i class="icon-mail"></i></a>
-  </div>
-</div>
+<ul class="social">
+  <li class="social__item">
+    <a target="_blank" title="Twitter" href="https://twitter.com/clemsos" class="social__icon--twitter">
+      <i class="icon icon-twitter"></i>
+    </a>
+  </li>
+  <li class="social__item">
+    <a target="_blank" title="Github" href="http://github.com/clemsos" class="social__icon--github">
+      <i class="icon icon-github-circled"></i>
+    </a>
+  </li>
+  <li class="social__item">
+    <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/clementrenaud" class="social__icon--linkedin">
+      <i class="icon icon-linkedin"></i>
+    </a>
+  </li>
+  <li class="social__item">
+    <a target="_blank" title="Quora" href="https://www.quora.com/profile/Cl%C3%A9ment-Renaud" class="social__icon--quora">
+      <i class="icon icon-quora"></i>
+    </a>
+  </li>
+  <li class="social__item">
+    <a target="_blank" title="Telegram" href="https://t.me/clemsos" class="social__icon--telelgram">
+      <i class="icon icon-telegram"></i>
+    </a>
+  </li>
+  <li class="social__item">
+    <a target="_blank" title="Wechat" href="#" class="social__icon--wechat">
+      <i class="icon icon-wechat"></i>
+    </a>
+  </li>
+
+  <li class="social__item">
+      <a target="_blank" title="E-mail" href="mailto:hi@clementrenaud.com" class="social__icon--mail"><i class="icon icon-mail"></i></a>
+  </li>
+
+  <li class="social__item">
+    <p class="wechat" display="none">
+      Wechat / 微信
+      <br>
+      <img width="150" src="/images/wechat-qr.jpg" alt="" />
+    </p>
+  </li>
+</ul>
+
+<script>
+var qr = document.querySelector('.wechat');
+qr.style.display = "none"
+
+document.querySelector('.social__icon--wechat').onclick = function(e) {
+  e.preventDefault();
+  // Event.stop(e);
+
+  if (qr.style.display == "none")
+    qr.style.display = "block";
+  else
+    qr.style.display = "none";
+
+  return false
+}
+
+</script>

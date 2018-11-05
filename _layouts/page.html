@@ -1,6 +1,4 @@
 {% include head.html %}
-{% include header.html %}
-{% include hero.html %}
 <div class="container page" {% if page.id != "" %} id="{{page.id}}" {% endif %}>
   <div class="row">
     <h2 class="title">
@@ -9,4 +7,4 @@
     {{ content }}
   </div>
 </div>
-{% include footer.html %}
+{% include scripts.html %}

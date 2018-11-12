@@ -17,7 +17,7 @@ Clement Renaud is a researcher and creative developer investigating global techn
 
 He is available for projects, exhibitions, speaking engagements, and media inquiries.
 
-Read the [full CV](/cv), have a look at the [portfolio](/portfolio) or check on social networks :
+Read the [full CV](/cv), have a look at [previous projects](/portfolio) or check on social networks :
 
 
 {% include social.html %}

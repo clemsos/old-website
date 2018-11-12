@@ -13,7 +13,7 @@ redirect_from:
   Photo : (cc) [Christopher Adams](http://chris.raysend.com)
 </small>
 
-Clement Renaud is a creative developer researching global technology flows between China and the rest of the World. His works bridge data  visualization and on-site field investigation, spanning anthropology, geography, art, design, product development and coding. He currently holds a research position at the Institute for Area and Global Studies at EPFL (Switzerland). He lives and works in Shenzhen (China) and Lyon (France).
+Clement Renaud is a researcher and creative developer investigating global technology flows between China and the rest of the World. His works bridge data  visualization and on-site field investigation, spanning anthropology, geography, art, design, product development and coding. He currently holds a research position at the Institute for Area and Global Studies at EPFL (Switzerland). He lives and works in Shenzhen (China) and Lyon (France).
 
 He is available for projects, exhibitions, speaking engagements, and media inquiries.
 

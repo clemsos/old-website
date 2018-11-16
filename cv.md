@@ -196,22 +196,21 @@ spécifique ?, *Réseaux*, 2016/1(195). 10.3917/res.195.0107 [link](/uploads/pap
 2012-NOW Teaching Data Visualization : Nantes Ecole de de Design, DSAA Media Design (Villefontaine), M2 Université Jean Jaurès (Toulouse), Haute Ecole d'Art et de Design HEAD (Genève), EM Lyon, etc.
 
 2012-NOW Université Toulouse 2 *Initiation to Big Data – Case studies,
-data collection and visualization basics* Master2 Research (3 years x
-28h)
+data collection and visualization basics* Master2 Research
 
 2011 Ningbo Polytechnic University *Creative thinking and social
-innovation* Undergraduate (4h), invited by Ben Koo, Qinghua University
+innovation* Undergraduate, invited by Ben Koo, Qinghua University
 for Unesco
 
 2011 Fudan University, Shanghai *Writing for the screen : from
-multimedia to visualization* Master Journalism (12h)
+multimedia to visualization* Master Journalism
 
 2010 Raffles Education Corp., Wuhan *Web and Interactive Design*
 Undergraduate (6 months, full-time position) - The lessons were given in
 both English and Chinese mandarin
 
 2010 Wuhan University *Trends and specifics of the European Internet*
-Communication Undergraduate (16h)
+Communication Undergraduate
 
 2008 Wuhan Institute of Technology *French language (oral and written,
 plus technical vocabulary courses) and French culture*, Undergraduate (2

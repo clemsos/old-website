@@ -13,9 +13,9 @@ redirect_from:
   Photo : (cc) [Christopher Adams](http://chris.raysend.com)
 </small>
 
-Clement Renaud is a researcher, artist and creative technologist. 
+Clement Renaud is a creative technologist and researcher working between Europe and China. 
 
-He specializes in creating new experiences, interfaces and tools based on advanced data workflows. He is member of the Institute for Complex Systems (IXXI) at [ENS de Lyon](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_de_Lyon). He lives in Lyon (France) and Shenzhen (China).
+He prototypes and builds tools, teams and advanced workflows to mine, visualize and publish data. He is member of the Institute for Complex Systems (IXXI) at [ENS de Lyon](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_de_Lyon). He lives in Lyon (France).
 
 He is [available to hire](mailto:hello@clementrenaud.com) for projects, exhibitions, speaking engagements, and media inquiries.
 
